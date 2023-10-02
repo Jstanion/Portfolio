@@ -14,7 +14,7 @@ export default function Navbar() {
           </span>
         </h2>
         <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-ltGray group-hover:text-yellow`}>
-        Learn more about me, my background, my interests, and my goals as a web developer.
+        Learn more about my background, interests, and goals as a developer.
         </p>
       </Link>
 
@@ -29,7 +29,7 @@ export default function Navbar() {
           </span>
         </h2>
         <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-ltGray group-hover:text-yellow`}>
-        Check out some of the web projects I have worked on, ranging from simple static websites to complex dynamic web applications.
+        Check out my work, ranging from simple static sites to dynamic web applications.
         </p>
       </Link>
 
@@ -44,7 +44,7 @@ export default function Navbar() {
           </span>
         </h2>
         <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-dkGray group-hover:text-yellow`}>
-        Discover the skills and technologies I use to create engaging and responsive web experiences for users.
+        Explore the skills and technologies I use to create an engaging user experience.
         </p>
       </Link>
 
@@ -59,7 +59,7 @@ export default function Navbar() {
           </span>
         </h2>
         <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-dkGray group-hover:text-yellow`}>
-        Get in touch with me via email, phone, or social media. I would love to hear from you and collaborate on future web projects.
+        Let&apos;s connect to discuss how I can help grow your business.
         </p>
       </Link>
     </div>
