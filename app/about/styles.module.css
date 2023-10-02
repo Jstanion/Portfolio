@@ -1,0 +1,26 @@
+.blurImage {
+  animation: blurImage ease 3s;
+  -webkit-animation: blurImage ease 3s;
+  -moz-animation: blurImage ease 3s;
+  -o-animation: blurImage ease 3s;
+  -ms-animation: blurImage ease 3s;
+}
+
+@keyframes blurImage {
+  0% { filter: blur(10px); }
+  100% { filter: blur(0px); }
+}
+
+.fadeIn {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+

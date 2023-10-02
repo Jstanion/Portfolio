@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Styles from "./styles.module.css";
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
 
       </div>
       <Image
-      className="rounded-full h-fit self-center"
+      className={`${Styles.blurImage} rounded-full h-fit self-center`}
       width={500}
       height={300}
       src="/profile.jpg"
