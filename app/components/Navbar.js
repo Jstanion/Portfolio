@@ -6,12 +6,10 @@ export default function Navbar() {
       <Link
         href="/about"
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-        target="_blank"
-        rel="noopener noreferrer"
       >
         <h2 className={`mb-3 text-2xl font-semibold text-ltGray group-hover:text-blue`}>
           About{" "}
-          <span className="inline-block transition-transform group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-blue">
+          <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-blue">
             -&gt;
           </span>
         </h2>
@@ -23,12 +21,10 @@ export default function Navbar() {
       <Link
         href="/project"
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-        target="_blank"
-        rel="noopener noreferrer"
       >
         <h2 className={`mb-3 text-2xl font-semibold text-ltGray group-hover:text-blue`}>
           Projects{" "}
-          <span className="inline-block transition-transform group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-blue">
+          <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-blue">
             -&gt;
           </span>
         </h2>
@@ -40,12 +36,10 @@ export default function Navbar() {
       <Link
         href="/skills"
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-        target="_blank"
-        rel="noopener noreferrer"
       >
         <h2 className={`mb-3 text-2xl font-semibold text-ltGray group-hover:text-blue`}>
           Skills{" "}
-          <span className="inline-block transition-transform group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-blue">
+          <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-blue">
             -&gt;
           </span>
         </h2>
@@ -57,12 +51,10 @@ export default function Navbar() {
       <Link
         href="/contact"
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-        target="_blank"
-        rel="noopener noreferrer"
       >
         <h2 className={`mb-3 text-2xl font-semibold text-ltGray group-hover:text-blue`}>
           Contact{" "}
-          <span className="inline-block transition-transform group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-blue">
+          <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-blue">
             -&gt;
           </span>
         </h2>
