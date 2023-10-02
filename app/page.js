@@ -7,10 +7,10 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <header className="flex min-h-screen flex-col items-center justify-center p-24">
+      <header className="flex min-h-screen py-10">
+        <Navbar />
         <Hero />
       </header>
-      <Navbar />
     </>
   );
 }
