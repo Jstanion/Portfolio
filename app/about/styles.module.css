@@ -1,4 +1,4 @@
-.blurImage {
+/* .profileImage {
   animation: blurImage ease 3s;
   -webkit-animation: blurImage ease 3s;
   -moz-animation: blurImage ease 3s;
@@ -7,16 +7,16 @@
 }
 
 @keyframes blurImage {
-  0% { filter: blur(10px); }
+  0% { filter: blur(30px); }
   100% { filter: blur(0px); }
-}
+} */
 
 .fadeIn {
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
-  -moz-animation: fadeIn ease 5s;
-  -o-animation: fadeIn ease 5s;
-  -ms-animation: fadeIn ease 5s;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
 }
 
 @keyframes fadeIn {
@@ -24,3 +24,6 @@
   100% { opacity: 1; }
 }
 
+#profile {
+  border-radius: 0% 50% 50% 0%;
+}
