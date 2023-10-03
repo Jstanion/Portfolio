@@ -1,16 +1,3 @@
-/* .profileImage {
-  animation: blurImage ease 3s;
-  -webkit-animation: blurImage ease 3s;
-  -moz-animation: blurImage ease 3s;
-  -o-animation: blurImage ease 3s;
-  -ms-animation: blurImage ease 3s;
-}
-
-@keyframes blurImage {
-  0% { filter: blur(30px); }
-  100% { filter: blur(0px); }
-} */
-
 .fadeIn {
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
@@ -26,4 +13,10 @@
 
 #profile {
   border-radius: 0% 50% 50% 0%;
+}
+
+.intro {
+  background: -webkit-linear-gradient(rgb(92, 128, 188), rgb(48, 50, 61));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
