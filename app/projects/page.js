@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Project() {
   return (
     <>
@@ -10,6 +12,14 @@ export default function Project() {
           <button className="hover:text-blue">JAVASCRIPT</button>
           <button className="hover:text-blue">REACT JS</button>
           <button className="hover:text-blue">NEXT JS</button>
+        </div>
+        <div className="flex jusitfy-center items-center h-full">
+          <Image
+            src="/coding-quiz.png"
+            width={300}
+            height={300}
+            alt="Coding Quiz"
+          />
         </div>
       </div>
     </>
