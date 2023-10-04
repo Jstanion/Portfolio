@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Styles from "./styles.module.css";
 import { FaDesktop, FaGithub } from "react-icons/fa";
 
 export default function Project() {
@@ -16,42 +17,42 @@ export default function Project() {
         </div>
         <div className="flex flex-wrap grid grid-cols-3 bg-white">
           <Image
-            className=""
+            className={Styles.img}
             src="/shortStack.png"
             width={350}
             height={350}
             alt="Short Stack Videos app thumbnail"
           />
           <Image
-            className=""
+            className={Styles.img}
             src="/thisLittlePiggy.png"
             width={350}
             height={350}
             alt="This Little Piggy app thumbnail"
           />
           <Image
-            className=""
+            className={Styles.img}
             src="/mrMovie.png"
             width={350}
             height={350}
             alt="Mr Movie app thumbnail"
           />
           <Image
-            className=""
+            className={Styles.img}
             src="/weatherForecast.png"
             width={350}
             height={350}
             alt="Weather Forecast app thumbnail"
           />
           <Image
-            className=""
+            className={Styles.img}
             src="/taskScheduler.png"
             width={350}
             height={350}
             alt="Task Scheduler app thumbnail"
           />
           <Image
-            className=""
+            className={Styles.img}
             src="/passwordGenerator.png"
             width={350}
             height={350}
