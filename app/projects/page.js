@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 export default function Project() {
   return (
     <>
@@ -14,7 +15,21 @@ export default function Project() {
           <button className="hover:text-blue">NEXT JS</button>
         </div>
         <div className="flex flex-wrap grid grid-cols-3 gap-x-20 gap-y-2 jusitfy-center items-center h-full w-full">
-          
+          <div className="flex flex-col justify-end items-end rounded-lg bg-dkGray ">
+            <p className="text-center w-full">short_Stack</p>
+            <div className="flex">
+              <div className="flex flex-col justify-center">
+
+              </div>
+              <Image
+                className="rounded-lg"
+                src="/shortStack.png"
+                width={300}
+                height={300}
+                alt="Short Stack Videos app thumbnail"
+              />
+            </div>
+          </div>
 
           <div>
             <Image
