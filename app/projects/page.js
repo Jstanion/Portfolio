@@ -5,47 +5,51 @@ import { FaDesktop, FaGithub } from "react-icons/fa";
 export default function Project() {
   return (
     <>
-      <div className="flex flex-col items-center justify-between w-full">
+      <div className="flex flex-col items-center justify-between">
         <div className="flex flex-col items-center w-full">
           <h1 className="border-y rounded-l-full border-ltGray bg-gradient-to-r from-blue text-4xl text-ltGray py-4 w-2/3">
             <span className="pl-10">PROJECTS</span>
           </h1>
-          <div className="flex justify-evenly items-start text-ltGray text-xl w-full pt-10">
-            <button className="hover:bg-blue py-1 px-6">ALL</button>
-            <button className="hover:bg-blue py-1 px-6">JAVASCRIPT</button>
-            <button className="hover:bg-blue py-1 px-6">REACT JS</button>
-            <button className="hover:bg-blue py-1 px-6">NEXT JS</button>
+          <div className="flex justify-evenly text-ltGray text-xl w-full pt-10">
+            <button className={Styles.button}>ALL</button>
+            <button className={Styles.button}>JAVASCRIPT</button>
+            <button className={Styles.button}>REACT JS</button>
+            <button className={Styles.button}>NEXT JS</button>
           </div>
         </div>
         <div className="flex justify-center flex-wrap">
-          <section className="flex justify-center items-center text-blue">
-            <div className="absolute grid grid-cols-2">
+          <section className="flex justify-center items-center text-blue ">
+            <div className={Styles.icons}>
               <a href="https://shortstack.vercel.app/">
-                <FaDesktop className="text-5xl mx-4" />
+                <FaDesktop className="text-5xl" />
+                <p>Website</p>
               </a>
-              <a href="https://shortstack.vercel.app/">
-                <FaGithub className="text-5xl mx-4" />
+              <a href="https://github.com/Jstanion/ShortStack">
+                <FaGithub className="text-5xl" />
+                <p>GitHub</p>
               </a>
             </div>
             <Image
-              className={`${Styles.img} relative`}
+              className={Styles.img}
               src="/shortStack.png"
               width={350}
-              height={350}
+              height={200}
               alt="Short Stack Videos app thumbnail"
             />
           </section>
           <section className="flex justify-center items-center text-blue">
-            <div className="absolute grid grid-cols-2">
-              <a href="https://shortstack.vercel.app/">
-                <FaDesktop className="text-5xl mx-4" />
+            <div className={Styles.icons}>
+            <a href="https://shortstack.vercel.app/">
+                <FaDesktop className="text-5xl" />
+                <p>Website</p>
               </a>
-              <a href="https://shortstack.vercel.app/">
-                <FaGithub className="text-5xl mx-4" />
+              <a href="https://github.com/Jstanion/ShortStack">
+                <FaGithub className="text-5xl" />
+                <p>GitHub</p>
               </a>
             </div>
             <Image
-              className={`${Styles.img} relative`}
+              className={Styles.img}
               src="/thisLittlePiggy.png"
               width={350}
               height={350}
@@ -53,16 +57,18 @@ export default function Project() {
             />
           </section>
           <section className="flex justify-center items-center text-blue">
-            <div className="absolute grid grid-cols-2">
-              <a href="https://shortstack.vercel.app/">
-                <FaDesktop className="text-5xl mx-4" />
+            <div className={Styles.icons}>
+            <a href="https://shortstack.vercel.app/">
+                <FaDesktop className="text-5xl" />
+                <p>Website</p>
               </a>
-              <a href="https://shortstack.vercel.app/">
-                <FaGithub className="text-5xl mx-4" />
+              <a href="https://github.com/Jstanion/ShortStack">
+                <FaGithub className="text-5xl" />
+                <p>GitHub</p>
               </a>
             </div>
             <Image
-              className={`${Styles.img} relative`}
+              className={Styles.img}
               src="/mrMovie.png"
               width={350}
               height={350}
@@ -70,16 +76,18 @@ export default function Project() {
             />
           </section>
           <section className="flex justify-center items-center text-blue">
-            <div className="absolute grid grid-cols-2">
-              <a href="https://shortstack.vercel.app/">
-                <FaDesktop className="text-5xl mx-4" />
+            <div className={Styles.icons}>
+            <a href="https://jstanion.github.io/Mr-Movie/">
+                <FaDesktop className="text-5xl" />
+                <p>Website</p>
               </a>
-              <a href="https://shortstack.vercel.app/">
-                <FaGithub className="text-5xl mx-4" />
+              <a href="https://github.com/Jstanion/Mr-Movie">
+                <FaGithub className="text-5xl" />
+                <p>GitHub</p>
               </a>
             </div>
             <Image
-              className={`${Styles.img} relative`}
+              className={Styles.img}
               src="/weatherForecast.png"
               width={350}
               height={350}
@@ -87,16 +95,18 @@ export default function Project() {
             />
           </section>
           <section className="flex justify-center items-center text-blue">
-            <div className="absolute grid grid-cols-2">
-              <a href="https://shortstack.vercel.app/">
-                <FaDesktop className="text-5xl mx-4" />
+            <div className={Styles.icons}>
+            <a href="https://shortstack.vercel.app/">
+                <FaDesktop className="text-5xl" />
+                <p>Website</p>
               </a>
-              <a href="https://shortstack.vercel.app/">
-                <FaGithub className="text-5xl mx-4" />
+              <a href="https://github.com/Jstanion/ShortStack">
+                <FaGithub className="text-5xl" />
+                <p>GitHub</p>
               </a>
             </div>
             <Image
-              className={`${Styles.img} relative`}
+              className={Styles.img}
               src="/taskScheduler.png"
               width={350}
               height={350}
@@ -104,16 +114,18 @@ export default function Project() {
             />
           </section>
           <section className="flex justify-center items-center text-blue">
-            <div className="absolute grid grid-cols-2">
-              <a href="https://shortstack.vercel.app/">
-                <FaDesktop className="text-5xl mx-4" />
+            <div className={Styles.icons}>
+            <a href="https://shortstack.vercel.app/">
+                <FaDesktop className="text-5xl" />
+                <p>Website</p>
               </a>
-              <a href="https://shortstack.vercel.app/">
-                <FaGithub className="text-5xl mx-4" />
+              <a href="https://github.com/Jstanion/ShortStack">
+                <FaGithub className="text-5xl" />
+                <p>GitHub</p>
               </a>
             </div>
             <Image
-              className={`${Styles.img} relative`}
+              className={Styles.img}
               src="/passwordGenerator.png"
               width={350}
               height={350}
