@@ -17,9 +17,16 @@ export default function Project() {
             <button className="hover:bg-blue py-1 px-6">NEXT JS</button>
           </div>
         </div>
-        <div className="flex flex-wrap grid grid-cols-3 bg-white">
-          <button className="flex justify-center items-center text-blue">
-            <p className="absolute">Learn More</p>
+        <div className="flex justify-center flex-wrap">
+          <section className="flex justify-center items-center text-blue">
+            <div className="absolute grid grid-cols-2">
+              <a href="https://shortstack.vercel.app/">
+                <FaDesktop className="text-5xl mx-4" />
+              </a>
+              <a href="https://shortstack.vercel.app/">
+                <FaGithub className="text-5xl mx-4" />
+              </a>
+            </div>
             <Image
               className={`${Styles.img} relative`}
               src="/shortStack.png"
@@ -27,9 +34,16 @@ export default function Project() {
               height={350}
               alt="Short Stack Videos app thumbnail"
             />
-          </button>
-          <button className="flex justify-center items-center text-blue">
-            <p className="absolute">Learn More</p>
+          </section>
+          <section className="flex justify-center items-center text-blue">
+            <div className="absolute grid grid-cols-2">
+              <a href="https://shortstack.vercel.app/">
+                <FaDesktop className="text-5xl mx-4" />
+              </a>
+              <a href="https://shortstack.vercel.app/">
+                <FaGithub className="text-5xl mx-4" />
+              </a>
+            </div>
             <Image
               className={`${Styles.img} relative`}
               src="/thisLittlePiggy.png"
@@ -37,9 +51,16 @@ export default function Project() {
               height={350}
               alt="This Little Piggy app thumbnail"
             />
-          </button>
-          <button className="flex justify-center items-center text-blue">
-            <p className="absolute">Learn More</p>
+          </section>
+          <section className="flex justify-center items-center text-blue">
+            <div className="absolute grid grid-cols-2">
+              <a href="https://shortstack.vercel.app/">
+                <FaDesktop className="text-5xl mx-4" />
+              </a>
+              <a href="https://shortstack.vercel.app/">
+                <FaGithub className="text-5xl mx-4" />
+              </a>
+            </div>
             <Image
               className={`${Styles.img} relative`}
               src="/mrMovie.png"
@@ -47,9 +68,16 @@ export default function Project() {
               height={350}
               alt="Mr Movie app thumbnail"
             />
-          </button>
-          <button className="flex justify-center items-center text-blue">
-            <p className="absolute">Learn More</p>
+          </section>
+          <section className="flex justify-center items-center text-blue">
+            <div className="absolute grid grid-cols-2">
+              <a href="https://shortstack.vercel.app/">
+                <FaDesktop className="text-5xl mx-4" />
+              </a>
+              <a href="https://shortstack.vercel.app/">
+                <FaGithub className="text-5xl mx-4" />
+              </a>
+            </div>
             <Image
               className={`${Styles.img} relative`}
               src="/weatherForecast.png"
@@ -57,9 +85,16 @@ export default function Project() {
               height={350}
               alt="Weather Forecast app thumbnail"
             />
-          </button>
-          <button className="flex justify-center items-center text-blue">
-            <p className="absolute">Learn More</p>
+          </section>
+          <section className="flex justify-center items-center text-blue">
+            <div className="absolute grid grid-cols-2">
+              <a href="https://shortstack.vercel.app/">
+                <FaDesktop className="text-5xl mx-4" />
+              </a>
+              <a href="https://shortstack.vercel.app/">
+                <FaGithub className="text-5xl mx-4" />
+              </a>
+            </div>
             <Image
               className={`${Styles.img} relative`}
               src="/taskScheduler.png"
@@ -67,9 +102,16 @@ export default function Project() {
               height={350}
               alt="Task Scheduler app thumbnail"
             />
-          </button>
-          <button className="flex justify-center items-center text-blue">
-            <p className="absolute">Learn More</p>
+          </section>
+          <section className="flex justify-center items-center text-blue">
+            <div className="absolute grid grid-cols-2">
+              <a href="https://shortstack.vercel.app/">
+                <FaDesktop className="text-5xl mx-4" />
+              </a>
+              <a href="https://shortstack.vercel.app/">
+                <FaGithub className="text-5xl mx-4" />
+              </a>
+            </div>
             <Image
               className={`${Styles.img} relative`}
               src="/passwordGenerator.png"
@@ -77,7 +119,7 @@ export default function Project() {
               height={350}
               alt="Password Generator app thumbnail"
             />
-          </button>
+          </section>
         </div>
       </div>
     </>
