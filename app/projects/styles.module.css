@@ -1,14 +1,10 @@
-.img {
-  position: relative;
-  opacity: 1;
-  transition: 0.5s ease-in-out;
-  z-index: 15;
+.button {
+  padding: 4px 16px 4px 16px;
 }
 
-.img:hover {
-  opacity: .25;
-  transition: 0.5s ease-in-out;
-  z-index: 1;
+.button:hover {
+  background-color: rgb(92, 128, 188);
+  padding: 4px 16px 4px 16px;
 }
 
 .icons {
@@ -24,11 +20,15 @@
   z-index: 20;
 }
 
-.button {
-  padding: 4px 16px 4px 16px;
+.img {
+  position: relative;
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+  z-index: 15;
 }
 
-.button:hover {
-  background-color: rgb(92, 128, 188);
-  padding: 4px 16px 4px 16px;
+.img:hover {
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
 }
