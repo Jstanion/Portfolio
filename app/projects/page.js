@@ -57,18 +57,18 @@ export default function Project() {
               alt="Short Stack Videos app thumbnail"
             />
           </section>
-          <section id="littlePiggy" className="text-blue">
+          <section id="weatherDashboard" className="text-blue">
             <div className={Styles.icons}>
               <a
                 className="hover:text-yellow"
-                href="https://this-little-piggy-a60cf3e8f6ed.herokuapp.com/"
+                href="https://jstanion.github.io/weather-dashboard/"
               >
                 <FaDesktop className="text-5xl ml-2" />
                 <p>Website</p>
               </a>
               <a
                 className="hover:text-yellow"
-                href="https://github.com/Jstanion/This-Little-Piggy"
+                href="https://github.com/Jstanion/weather-dashboard"
               >
                 <FaGithub className="text-5xl ml-1" />
                 <p>GitHub</p>
@@ -76,10 +76,10 @@ export default function Project() {
             </div>
             <Image
               className={Styles.img}
-              src="/thisLittlePiggy.png"
+              src="/weatherForecast.png"
               width={400}
               height={200}
-              alt="This Little Piggy app thumbnail"
+              alt="Weather Forecast app thumbnail"
             />
           </section>
           <section id="mrMovie" className="text-blue">
@@ -107,31 +107,6 @@ export default function Project() {
               alt="Mr Movie app thumbnail"
             />
           </section>
-          <section id="weatherDashboard" className="text-blue">
-            <div className={Styles.icons}>
-              <a
-                className="hover:text-yellow"
-                href="https://jstanion.github.io/weather-dashboard/"
-              >
-                <FaDesktop className="text-5xl ml-2" />
-                <p>Website</p>
-              </a>
-              <a
-                className="hover:text-yellow"
-                href="https://github.com/Jstanion/weather-dashboard"
-              >
-                <FaGithub className="text-5xl ml-1" />
-                <p>GitHub</p>
-              </a>
-            </div>
-            <Image
-              className={Styles.img}
-              src="/weatherForecast.png"
-              width={400}
-              height={200}
-              alt="Weather Forecast app thumbnail"
-            />
-          </section>
           <section id="taskScheduler" className="text-blue">
             <div className={Styles.icons}>
               <a
@@ -155,6 +130,31 @@ export default function Project() {
               width={400}
               height={200}
               alt="Task Scheduler app thumbnail"
+            />
+          </section>
+          <section id="littlePiggy" className="text-blue">
+            <div className={Styles.icons}>
+              <a
+                className="hover:text-yellow"
+                href="https://this-little-piggy-a60cf3e8f6ed.herokuapp.com/"
+              >
+                <FaDesktop className="text-5xl ml-2" />
+                <p>Website</p>
+              </a>
+              <a
+                className="hover:text-yellow"
+                href="https://github.com/Jstanion/This-Little-Piggy"
+              >
+                <FaGithub className="text-5xl ml-1" />
+                <p>GitHub</p>
+              </a>
+            </div>
+            <Image
+              className={Styles.img}
+              src="/thisLittlePiggy.png"
+              width={400}
+              height={200}
+              alt="This Little Piggy app thumbnail"
             />
           </section>
           <section id="passwordGenerator" className="text-blue">
