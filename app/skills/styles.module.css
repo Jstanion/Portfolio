@@ -1,0 +1,39 @@
+.sqlAnchor:hover .sqlIcon {
+  color: #00618C;
+  transition: color 0.5s ease;
+}
+
+.sqlAnchor:hover .sqlText {
+  color: #E68F00;
+  transition: color 0.5s ease;
+}
+
+.fbAnchor:hover .fbIcon {
+  color: #FABF1D;
+  transition: color 0.5s ease;
+}
+
+.fbAnchor:hover .fbStart {
+  color: #3CAB58;
+  transition: color 0.5s ease;
+}
+
+.fbAnchor:hover .fbMid {
+  color: #4888F5;
+  transition: color 0.5s ease;
+}
+
+.fbAnchor:hover .fbEnd {
+  color: #EB4A3D;
+  transition: color 0.5s ease;
+}
+
+.wbAnchor:hover .wbIcon {
+  color: #8ED5FA;
+  transition: color 0.5s ease;
+}
+
+.wbAnchor:hover .wbText {
+  color: #1B78BF;
+  transition: color 0.5s ease;
+}

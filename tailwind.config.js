@@ -21,6 +21,13 @@ module.exports = {
         'bsPurple': '#8050B9',
         'reactBlue': '#68DBFB',
         'njsBlack': '#080808',
+        'nodeGreen': '#8AC502',
+        'mdbGreen': '#58AC4F',
+        'mgRed': '#890100',
+        'npmRed': '#C03A39',
+        'gitOrange': '#F1563B',
+        'herokuPurple': '#581EB1',
+        'pmOrange': '#FF6C37',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
