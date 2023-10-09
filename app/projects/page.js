@@ -3,18 +3,17 @@ import Styles from "./styles.module.css";
 import { FaDesktop, FaGithub } from "react-icons/fa";
 
 export default function Project() {
-
-// Working on the toggle_visibility function to show/hide projects based on the button clicked
-//   function toggle_visibility() {
-//     for (var i = 0; i < arguments.length; i++) {
-//         var element = document.getElementById(arguments[i]);
-//         if (element.id === arguments[i]) {
-//             element.style.display = "block";
-//         } else {
-//             element.style.display = "none";
-//         }
-//     }
-// }
+  // Working on the toggle_visibility function to show/hide projects based on the button clicked
+  //   function toggle_visibility() {
+  //     for (var i = 0; i < arguments.length; i++) {
+  //         var element = document.getElementById(arguments[i]);
+  //         if (element.id === arguments[i]) {
+  //             element.style.display = "block";
+  //         } else {
+  //             element.style.display = "none";
+  //         }
+  //     }
+  // }
 
   return (
     <>
@@ -35,11 +34,17 @@ export default function Project() {
         <div className="flex justify-center flex-wrap">
           <section id="shortStack" className="text-blue">
             <div className={Styles.icons}>
-              <a href="https://shortstack.vercel.app/">
+              <a
+                className="hover:text-yellow"
+                href="https://shortstack.vercel.app/"
+              >
                 <FaDesktop className="text-5xl ml-2" />
                 <p>Website</p>
               </a>
-              <a href="https://github.com/Jstanion/ShortStack">
+              <a
+                className="hover:text-yellow"
+                href="https://github.com/Jstanion/ShortStack"
+              >
                 <FaGithub className="text-5xl ml-1" />
                 <p>GitHub</p>
               </a>
@@ -54,11 +59,17 @@ export default function Project() {
           </section>
           <section id="littlePiggy" className="text-blue">
             <div className={Styles.icons}>
-              <a href="https://this-little-piggy-a60cf3e8f6ed.herokuapp.com/">
+              <a
+                className="hover:text-yellow"
+                href="https://this-little-piggy-a60cf3e8f6ed.herokuapp.com/"
+              >
                 <FaDesktop className="text-5xl ml-2" />
                 <p>Website</p>
               </a>
-              <a href="https://github.com/Jstanion/This-Little-Piggy">
+              <a
+                className="hover:text-yellow"
+                href="https://github.com/Jstanion/This-Little-Piggy"
+              >
                 <FaGithub className="text-5xl ml-1" />
                 <p>GitHub</p>
               </a>
@@ -73,11 +84,17 @@ export default function Project() {
           </section>
           <section id="mrMovie" className="text-blue">
             <div className={Styles.icons}>
-              <a href="https://jstanion.github.io/Mr-Movie/">
+              <a
+                className="hover:text-yellow"
+                href="https://jstanion.github.io/Mr-Movie/"
+              >
                 <FaDesktop className="text-5xl ml-2" />
                 <p>Website</p>
               </a>
-              <a href="https://github.com/Jstanion/Mr-Movie">
+              <a
+                className="hover:text-yellow"
+                href="https://github.com/Jstanion/Mr-Movie"
+              >
                 <FaGithub className="text-5xl ml-1" />
                 <p>GitHub</p>
               </a>
@@ -92,11 +109,17 @@ export default function Project() {
           </section>
           <section id="weatherDashboard" className="text-blue">
             <div className={Styles.icons}>
-              <a href="https://jstanion.github.io/weather-dashboard/">
+              <a
+                className="hover:text-yellow"
+                href="https://jstanion.github.io/weather-dashboard/"
+              >
                 <FaDesktop className="text-5xl ml-2" />
                 <p>Website</p>
               </a>
-              <a href="https://github.com/Jstanion/weather-dashboard">
+              <a
+                className="hover:text-yellow"
+                href="https://github.com/Jstanion/weather-dashboard"
+              >
                 <FaGithub className="text-5xl ml-1" />
                 <p>GitHub</p>
               </a>
@@ -111,11 +134,17 @@ export default function Project() {
           </section>
           <section id="taskScheduler" className="text-blue">
             <div className={Styles.icons}>
-              <a href="https://jstanion.github.io/work-day-scheduler/">
+              <a
+                className="hover:text-yellow"
+                href="https://jstanion.github.io/work-day-scheduler/"
+              >
                 <FaDesktop className="text-5xl ml-2" />
                 <p>Website</p>
               </a>
-              <a href="https://github.com/Jstanion/work-day-scheduler">
+              <a
+                className="hover:text-yellow"
+                href="https://github.com/Jstanion/work-day-scheduler"
+              >
                 <FaGithub className="text-5xl ml-1" />
                 <p>GitHub</p>
               </a>
@@ -130,11 +159,17 @@ export default function Project() {
           </section>
           <section id="passwordGenerator" className="text-blue">
             <div className={Styles.icons}>
-              <a href="https://jstanion.github.io/password-generator/">
+              <a
+                className="hover:text-yellow"
+                href="https://jstanion.github.io/password-generator/"
+              >
                 <FaDesktop className="text-5xl ml-2" />
                 <p>Website</p>
               </a>
-              <a href="https://github.com/Jstanion/password-generator">
+              <a
+                className="hover:text-yellow"
+                href="https://github.com/Jstanion/password-generator"
+              >
                 <FaGithub className="text-5xl ml-1" />
                 <p>GitHub</p>
               </a>
