@@ -10,13 +10,3 @@
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-
-#profile {
-  border-radius: 0% 50% 50% 0%;
-}
-
-.intro {
-  background: -webkit-linear-gradient(rgb(92, 128, 188), rgb(48, 50, 61));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}

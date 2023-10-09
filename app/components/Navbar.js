@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <div className="flex flex-col justify-evenly text-center mx-5 lg:max-w-5xl lg:w-fit lg:mb-0  lg:text-left">
+    <div className="flex flex-col justify-evenly text-left mx-5 w-1/4">
       <Link
         href="/about"
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
