@@ -11,7 +11,7 @@ export default function Home() {
           </span>
           <br />
           I&apos;m a{" "}
-          <span className="text-mdGray dark:drop-shadow-[0_0_0.3rem_#ffffff70] animate-pulse">
+          <span className="text-dkGray dark:drop-shadow-[0_0_0.3rem_#ffffff70] animate-pulse">
             Full-Stack Web Developer.
           </span>
         </p>

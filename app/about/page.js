@@ -4,8 +4,8 @@ import Styles from "./styles.module.css";
 export default function About() {
   return (
     <div className="flex justify-evenly items-center w-full">
-      <div className="flex flex-col w-2/5 border-t border-blue ">
-        <div className="flex justify-center h-fit border-b border-blue p-4">
+      <div className="flex flex-col w-2/5">
+        <div className="flex justify-center h-fit border-l bg-gradient-to-r from-blue rounded-l-full border-blue p-4">
           <span className="text-yellow text-8xl">J</span>
           <p className="text-ltGray text-6xl">
             oseph
@@ -18,7 +18,7 @@ export default function About() {
       <div className="">
         <Image
           id={Styles.profile}
-          className={`${Styles.fadeIn} bg-gradient-to-l from-blue border-t border-blue h-fit`}
+          className={`${Styles.fadeIn} bg-gradient-to-l from-blue border-r rounded-r-full border-blue h-fit`}
           width={500}
           height={300}
           src="/profile-3.jpg"
