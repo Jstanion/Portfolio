@@ -1,3 +1,4 @@
+/* SQL Icon */
 .sqlAnchor:hover .sqlIcon {
   color: #00618C;
   transition: color 0.5s ease;
@@ -8,26 +9,33 @@
   transition: color 0.5s ease;
 }
 
-.fbAnchor:hover .fbIcon {
+/* Firebase Icon */
+.fbAnchor:hover .fbYellow {
   color: #FABF1D;
   transition: color 0.5s ease;
 }
 
-.fbAnchor:hover .fbStart {
+.fbAnchor:hover .fbGreen {
   color: #3CAB58;
   transition: color 0.5s ease;
 }
 
-.fbAnchor:hover .fbMid {
+.fbAnchor:hover .fbBlue {
   color: #4888F5;
   transition: color 0.5s ease;
 }
 
-.fbAnchor:hover .fbEnd {
+.fbAnchor:hover .fbRed {
   color: #EB4A3D;
   transition: color 0.5s ease;
 }
 
+.fbAnchor:hover .fbGray {
+  color: #8392B3;
+  transition: color 0.5s ease;
+}
+
+/* Webpack Icon */
 .wbAnchor:hover .wbIcon {
   color: #8ED5FA;
   transition: color 0.5s ease;
@@ -35,5 +43,38 @@
 
 .wbAnchor:hover .wbText {
   color: #1B78BF;
+  transition: color 0.5s ease;
+}
+
+/* Redux Icon */
+.rdxAnchor:hover .rdxIcon {
+  color: #764ABC;
+  transition: color 0.5s ease;
+}
+
+.rdxAnchor:hover .rdxText {
+  color: #303030;
+  transition: color 0.5s ease;
+}
+
+/* Handlebar Icon */
+.handlebarAnchor:hover .handlebarIcon {
+  color: #412F1F;
+  transition: color 0.5s ease;
+}
+
+.handlebarAnchor:hover .handlebarText {
+  color: #FF4413;
+  transition: color 0.5s ease;
+}
+
+/* Sequelize Icon */
+.sequelizeAnchor:hover .sequelizeIcon {
+  color: #2E3F6F;
+  transition: color 0.5s ease;
+}
+
+.sequelizeAnchor:hover .sequelizeText {
+  color: #51AFE7;
   transition: color 0.5s ease;
 }

@@ -19,9 +19,15 @@ import {
   SiHeroku,
   SiWebpack,
   SiPostman,
+  SiRedux,
+  SiJest,
+  SiHandlebarsdotjs,
+  SiGraphql,
+  SiSequelize,
+  SiApollographql,
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { FcGoogle } from "react-icons/fc";
+import { TbSeo } from "react-icons/tb";
 import Styles from "./styles.module.css";
 
 export default function Project() {
@@ -29,76 +35,78 @@ export default function Project() {
     <div className="flex flex-col items-center justify-between w-full">
       <div className="flex flex-col items-center w-full">
         <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray py-4 w-2/3">
-          <span className="pl-10">SKILLS</span>
+          <span className="pl-10">Skills I Use...</span>
         </h1>
       </div>
-      <div className="flex flex-col justify-start items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-1/4 w-full font-bold">
-        <p className=" p-2">Unique and Interactive Client-Side Applications</p>
+      <div className="flex flex-col justify-center items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-1/5 w-full font-bold">
+        {/* <p className="p-1 text-white">
+          Unique and Interactive Client-Side Applications
+        </p> */}
         <div className="flex flex-wrap justify-evenly items-center w-full">
           <div className="flex flex-col items-center hover:text-htmlOrange transition-colors duration-500">
-            <FaHtml5 className="text-7xl" />
-            <p className="">HTML5</p>
+            <FaHtml5 className="text-5xl" />
+            <p>HTML5</p>
           </div>
           <div className="flex flex-col items-center hover:text-cssBlue transition-colors duration-500">
-            <FaCss3Alt className="text-7xl" />
-            <p className="">CSS3</p>
+            <FaCss3Alt className="text-5xl" />
+            <p>CSS3</p>
           </div>
           <div className="flex flex-col items-center hover:text-jsYellow transition-colors duration-500">
-            <DiJavascript className="text-7xl" />
-            <p className="">JavaScript</p>
+            <DiJavascript className="text-5xl" />
+            <p>JavaScript</p>
           </div>
           <div className="flex flex-col items-center hover:text-twBlue transition-colors duration-500">
-            <SiTailwindcss className="text-7xl" />
-            <p className="">Tailwind</p>
+            <SiTailwindcss className="text-5xl" />
+            <p>Tailwind</p>
           </div>
           <div className="flex flex-col items-center hover:text-bsPurple transition-colors duration-500">
-            <FaBootstrap className="text-7xl" />
-            <p className="">Bootstrap</p>
+            <FaBootstrap className="text-5xl" />
+            <p>Bootstrap</p>
           </div>
           <div className="flex flex-col items-center hover:text-bulmaGreen transition-colors duration-500">
-            <SiBulma className="text-7xl" />
-            <p className="">Bulma</p>
+            <SiBulma className="text-5xl" />
+            <p>Bulma</p>
           </div>
           <div className="flex flex-col items-center hover:text-reactBlue transition-colors duration-500">
-            <FaReact className="text-7xl" />
-            <p className="">React</p>
+            <FaReact className="text-5xl" />
+            <p>React</p>
           </div>
           <div className="flex flex-col items-center hover:text-njsBlack transition-colors duration-500">
-            <SiNextdotjs className="text-7xl" />
-            <p className="">Next.js</p>
+            <SiNextdotjs className="text-5xl" />
+            <p>Next.js</p>
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-start items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-1/4 w-full font-bold">
-        <p className=" p-2"> Optimized and Scalable Back-End Applications</p>
+      <div className="flex flex-col justify-center items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-1/5 w-full font-bold">
+        {/* <p className="p-1"> Optimized and Scalable Back-End Applications</p> */}
         <div className="flex flex-wrap justify-evenly items-center w-full">
           <div className="flex flex-col items-center hover:text-nodeGreen transition-colors duration-500">
-            <FaNodeJs className="text-7xl" />
-            <p className="">Node.js</p>
+            <FaNodeJs className="text-5xl" />
+            <p>Node.js</p>
           </div>
           <div className="flex flex-col items-center hover:text-jsYellow transition-colors duration-500">
-            <SiExpress className="text-7xl" />
-            <p className="">Express.js</p>
+            <SiExpress className="text-5xl" />
+            <p>Express.js</p>
           </div>
           <div className="flex flex-col items-center hover:text-mdbGreen transition-colors duration-500">
-            <SiMongodb className="text-7xl" />
-            <p className="">MongoDB</p>
+            <SiMongodb className="text-5xl" />
+            <p>MongoDB</p>
           </div>
           <div
             className={`${Styles.sqlAnchor} flex flex-col items-center transition-colors duration-500`}
           >
-            <GrMysql className={`${Styles.sqlIcon}  text-7xl`} />
+            <GrMysql className={`${Styles.sqlIcon}  text-5xl`} />
             <p className={`${Styles.sqlText} `}>MySQL</p>
           </div>
           <div className="flex flex-col items-center hover:text-mgRed transition-colors duration-500">
-            <SiMongoose className="text-7xl" />
-            <p className="">Mongoose</p>
+            <SiMongoose className="text-5xl" />
+            <p>Mongoose</p>
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-start items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-1/4 w-full font-bold">
-        <p className=" p-2"> Additional Technologies and Tools...</p>
-        <div className="flex flex-wrap justify-evenly items-center w-full">
+      <div className="flex flex-col justify-center items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-2/5 w-full font-bold">
+        {/* <p className="p-1"> Additional Technologies and Tools...</p> */}
+        <div className="flex flex-wrap justify-evenly items-center w-full px-4 py-2">
           <div className="flex flex-col items-center hover:text-npmRed transition-colors duration-500">
             <FaNpm className="text-5xl" />
             <p className="text-center">
@@ -117,10 +125,14 @@ export default function Project() {
           <div
             className={`${Styles.fbAnchor} flex flex-col items-center transition-colors duration-500`}
           >
-            <SiFirebase className={`${Styles.fbIcon} text-5xl`} />
-            <p className={Styles.fbStart}>
-              Goog<span className={Styles.fbMid}>le Fire</span>
-              <span className={Styles.fbEnd}>base</span>
+            <SiFirebase className={`${Styles.fbYellow} text-5xl`} />
+            <p className={Styles.fbBlue}>
+              G<span className={Styles.fbRed}>o</span>
+              <span className={Styles.fbYellow}>o</span>
+              <span className={Styles.fbBlue}>g</span>
+              <span className={Styles.fbGreen}>l</span>
+              <span className={Styles.fbRed}>e</span>
+              <span className={Styles.fbGray}> Firebase</span>
             </p>
           </div>
           <div className="flex flex-col items-center hover:text-herokuPurple transition-colors duration-500">
@@ -133,9 +145,48 @@ export default function Project() {
             <SiWebpack className={`${Styles.wbIcon} text-5xl`} />
             <p className={Styles.wbText}>Webpack.js</p>
           </div>
+          <div
+            className={`${Styles.rdxAnchor} flex flex-col items-center transition-colors duration-500`}
+          >
+            <SiRedux className={`${Styles.rdxIcon} text-5xl`} />
+            <p className={Styles.rdxText}>Redux</p>
+          </div>
+        </div>
+        <div className="flex flex-wrap justify-evenly items-center w-full px-4 py-2">
           <div className="flex flex-col items-center hover:text-pmOrange transition-colors duration-500">
             <SiPostman className="text-5xl" />
             <p>Postman</p>
+          </div>
+          <div className="flex flex-col items-center hover:text-jstPurple transition-colors duration-500">
+            <SiJest className="text-5xl" />
+            <p>Jest</p>
+          </div>
+          <div
+            className={`${Styles.handlebarAnchor} flex flex-col items-center transition-colors duration-500`}
+          >
+            <SiHandlebarsdotjs className={`${Styles.handlebarIcon} text-5xl`} />
+            <p className={Styles.handlebarText}>Handlebar.js</p>
+          </div>
+          <div className="flex flex-col items-center hover:text-graphQL transition-colors duration-500">
+            <SiGraphql className="text-5xl" />
+            <p>GraphQL</p>
+          </div>
+          <div
+            className={`${Styles.sequelizeAnchor} flex flex-col items-center transition-colors duration-500`}
+          >
+            <SiSequelize className={`${Styles.sequelizeIcon} text-5xl`} />
+            <p className={Styles.sequelizeText}>Sequelize.js</p>
+          </div>
+          <div className="flex flex-col items-center hover:text-seoBlue transition-colors duration-500">
+            <TbSeo className="text-5xl" />
+            <p className="text-center">
+              Search Engine <br />
+              Optimization
+            </p>
+          </div>
+          <div className="flex flex-col items-center hover:text-njsBlack transition-colors duration-500">
+            <SiApollographql className="text-5xl" />
+            <p>Apollo</p>
           </div>
         </div>
       </div>

@@ -28,6 +28,10 @@ module.exports = {
         'gitOrange': '#F1563B',
         'herokuPurple': '#581EB1',
         'pmOrange': '#FF6C37',
+        'jstPurple': '#9D4860',
+        'graphQL': '#E641AF',
+        'seoBlue': '#8ED5FA',
+        
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
