@@ -1,10 +1,13 @@
-.block {
+
+
+/* .block {
   display: flex;
   flex-direction: column;
 }
 
 .name {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -12,20 +15,21 @@
 .container input {
   font-size: 1.2rem;
   margin: 10px 0 10px 0px;
-  border-color: rgb(31, 28, 28);
+  border-color: #4d5061;
   padding: 10px;
   border-radius: 5px;
-  background-color: #e8f0fe;
-  color: black;
+  background-color: #cdd1c4;
+  color: #30323d;
 }
 
 .container textarea {
   margin: 10px 0 10px 0px;
   padding: 5px;
-  border-color: rgb(31, 28, 28);
+  border-color: #4d5061;
   border-radius: 5px;
-  background-color: #e8f0fe;
+  background-color: #cdd1c4;
   font-size: 20px;
+  color: #30323d;
 }
 
 .container h1 {
@@ -42,7 +46,7 @@
   padding: 10px;
   font-size: 20px;
   width: 30%;
-  border: 3px solid black;
+  border: 3px solid #cdd1c4;
   border-radius: 5px;
 }
 
@@ -53,4 +57,4 @@
 
 .textarea {
   resize: none;
-}
+} */
