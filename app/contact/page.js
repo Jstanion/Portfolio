@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Styles from "./styles.module.css";
 
@@ -5,9 +6,21 @@ export default function Project() {
   async function handleSubmit(e) {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
-    console.log(data);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "post",
+        body: new URLSearchParams(data),
+      });
+      if (!response.ok) {
+        throw new Error(`Invalid response: ${response.status}`);
+      }
+      alert("Thanks for contacting us, we will get back to you soon!");
+    } catch (err) {
+      console.error(err);
+      alert("We can't submit the form, try again later?");
+    }
   }
-  
+
   return (
     <div className="flex flex-col justify-between items-center w-full">
       <div className="flex justify-end w-full">
@@ -17,7 +30,7 @@ export default function Project() {
           </h1>
         </div>
       </div>
-      <form className={`${Styles.container} w-1/2`}>
+      <form className={`${Styles.container} w-1/2`} onSubmit={handleSubmit}>
         <div className={Styles.name}>
           <div>
             <label htmlFor="frm-first">First Name</label>
