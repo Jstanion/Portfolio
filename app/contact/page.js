@@ -12,60 +12,52 @@ export default function Project() {
             </h1>
           </div>
         </div>
-        <div className="flex justify-center w-2/3">
-          <form className={Styles.container}>
-            <h1>Get in touch</h1>
-            <div className={`email ${Styles.block}`}>
-              <label htmlFor="frm-email">Email</label>
+        <form className={`${Styles.container} w-1/2`}>
+          <div className={Styles.name}>
+            <div>
+              <label htmlFor="frm-first">First Name</label>
               <input
-                id="frm-email"
-                type="email"
-                name="email"
-                autoComplete="email"
-                required
-              />
-            </div>
-            <div className={`phone ${Styles.block}`}>
-              <label htmlFor="frm-phone">Phone</label>
-              <input
-                id="frm-phone"
+                id="frm-first"
                 type="text"
-                name="phone"
-                autoComplete="tel"
+                name="first"
+                autoComplete="given-name"
                 required
               />
             </div>
-            <div className={`name ${Styles.name}`}>
-              <div>
-                <label htmlFor="frm-first">First Name</label>
-                <input
-                  id="frm-first"
-                  type="text"
-                  name="first"
-                  autoComplete="given-name"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="frm-last">Last Name</label>
-                <input
-                  id="frm-last"
-                  type="text"
-                  name="last"
-                  autoComplete="family-name"
-                  required
-                />
-              </div>
+            <div>
+              <label htmlFor="frm-last">Last Name</label>
+              <input
+                id="frm-last"
+                type="text"
+                name="last"
+                autoComplete="family-name"
+                required
+              />
             </div>
-            <div className={`message ${Styles.block}`}>
-              <label htmlFor="frm-message">Message</label>
-              <textarea id="frm-message" rows="6" name="message"></textarea>
-            </div>
-            <div className="button block">
-              <button type="submit">Submit</button>
-            </div>
-          </form>
-        </div>
+          </div>
+          <div className={`email ${Styles.block}`}>
+            <label htmlFor="frm-email">Email</label>
+            <input
+              id="frm-email"
+              type="email"
+              name="email"
+              autoComplete="email"
+              required
+            />
+          </div>
+          <div className={`message ${Styles.block}`}>
+            <label htmlFor="frm-message">Message</label>
+            <textarea
+              id="frm-message"
+              className={Styles.textarea}
+              rows="6"
+              name="message"
+            ></textarea>
+          </div>
+          <div className={`button ${Styles.block}`}>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
       </div>
     </>
   );
