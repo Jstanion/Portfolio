@@ -1,7 +1,7 @@
-import Styles from "../app/contact/styles.module.css"
+import Styles from "../contact/styles.module.css"
 
 export default function ContactForm() {
-  <form className={`${Styles.container} w-1/2`} onSubmit={handleSubmit}>
+  <form className={`${Styles.container} w-1/2`}>
     <div className={Styles.name}>
       <div>
         <label htmlFor="frm-first">First Name</label>
