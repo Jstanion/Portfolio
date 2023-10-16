@@ -7,13 +7,14 @@ export default function Footer() {
   return (
     <footer className="text-mdGray body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        <Link
-          href=""
+        <a
+          href="/Joseph_Stanion_Resume.pdf"
           className="flex title-font font-medium items-center md:justify-start justify-center text-mdGray"
+          download
         >
           <AiOutlineDownload size={32} />
           <span className="ml-3 text-mdGray">Download My Resume</span>
-        </Link>
+        </a>
         <p className="text-xs text-mdGray sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-mdGray sm:py-2 sm:mt-0 mt-4">
           © 2023 JOSEPH STANION
         </p>
