@@ -16,7 +16,7 @@ export default function Navbar() {
           </span>
         </h2>
         <p
-          className={`m-0 max-w-[30ch] text-sm opacity-50 text-ltGray group-hover:text-yellow`}
+          className={`m-0 max-w-[30ch] opacity-50 text-ltGray group-hover:text-yellow`}
         >
           Learn more about my background, interests, and goals as a developer.
         </p>
@@ -27,7 +27,7 @@ export default function Navbar() {
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
       >
         <h2
-          className={`mb-3 text-2xl font-semibold text-ltGray group-hover:text-yellow`}
+          className={`mb-3 text-2xl font-semibold text-dkGray group-hover:text-yellow`}
         >
           Projects{" "}
           <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-yellow">
@@ -35,7 +35,7 @@ export default function Navbar() {
           </span>
         </h2>
         <p
-          className={`m-0 max-w-[30ch] text-sm opacity-50 text-ltGray group-hover:text-yellow`}
+          className={`m-0 max-w-[30ch] opacity-50 text-dkGray group-hover:text-yellow`}
         >
           Check out my work, ranging from simple static sites to dynamic web
           applications.
@@ -55,7 +55,7 @@ export default function Navbar() {
           </span>
         </h2>
         <p
-          className={`m-0 max-w-[30ch] text-sm opacity-50 text-dkGray group-hover:text-yellow`}
+          className={`m-0 max-w-[30ch] opacity-50 text-dkGray group-hover:text-yellow`}
         >
           Explore the skills and technologies I use to create an engaging user
           experience.
@@ -67,7 +67,7 @@ export default function Navbar() {
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
       >
         <h2
-          className={`mb-3 text-2xl font-semibold text-dkGray group-hover:text-yellow`}
+          className={`mb-3 text-2xl font-semibold text-ltGray group-hover:text-yellow`}
         >
           Contact{" "}
           <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-yellow">
@@ -75,7 +75,7 @@ export default function Navbar() {
           </span>
         </h2>
         <p
-          className={`m-0 max-w-[30ch] text-sm opacity-50 text-dkGray group-hover:text-yellow`}
+          className={`m-0 max-w-[30ch] opacity-50 text-ltGray group-hover:text-yellow`}
         >
           Let&apos;s connect to discuss how I can help grow your business.
         </p>
