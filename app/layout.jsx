@@ -15,10 +15,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-col justify-between min-h-screen">
+        <div className="flex flex-col justify-between h-screen">
           <div className="flex h-full">
             <Navbar />
-            {children}
+            <div className="flex justify-center items-center w-full">
+              {children}
+            </div>
           </div>
           <Footer />
         </div>
