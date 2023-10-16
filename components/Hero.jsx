@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Hero() {
   return (
     <div className="flex w-full text-center items-center justify-center">
