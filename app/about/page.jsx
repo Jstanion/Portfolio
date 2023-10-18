@@ -11,37 +11,47 @@ export default function About() {
           </h1>
         </div>
       </div>
-      <div className="flex justify-evenly items-center">
-        <div className="flex flex-col justify-between h-full">
-          <div
-            className={`${Styles.fadeInTitle} flex justify-center h-fit border-l bg-gradient-to-r from-blue rounded-l-full border-blue p-4`}
-          >
-            <span className="text-yellow text-8xl">J</span>
-            <p className="text-ltGray text-6xl">
-              oseph
-              <br />
-              <span className="text-yellow text-8xl">S</span>tanion
-            </p>
+      <div className="flex justify-center items-center h-full">
+        <div className="flex justify-center pt-4">
+          <div className="flex justify-between items-start w-3/4 h-full">
+            <div
+              className={`${Styles.fadeInTitle} flex flex-col justify-between items-center w-1/2`}
+            >
+              <div className="flex justify-center w-full border-l bg-gradient-to-r from-blue rounded-l-full border-blue p-4">
+                <span className="text-yellow text-6xl">J</span>
+                <p className="text-ltGray text-4xl">
+                  oseph
+                  <br />
+                  <span className="text-yellow text-6xl">S</span>tanion
+                </p>
+              </div>
+              <p
+                className={`${Styles.fadeInIntro} text-md text-center leading-7 p-6 w-5/6`}
+              >
+                <span className="text-dkGray">
+                  As a full-stack web developer, I have the same passion for
+                  creating unique and modern user interfaces and optimize
+                  backend databases to give you the best web experience
+                  possible.{" "}
+                </span>
+                <span className="text-ltGray">
+                  As a former restaurant manager and team leader, I have over
+                  ten years of experience in delivering customer satisfaction,
+                  maintaining a positive attitude, and solving problems
+                  creatively.
+                </span>
+              </p>
+            </div>
+            <Image
+              id={Styles.profile}
+              className={`${Styles.fadeInImage} bg-gradient-to-l from-blue border-r rounded-r-full border-blue h-fit`}
+              width={370}
+              height={300}
+              src="/profile-3.jpg"
+              alt="Picture of the author"
+            />
           </div>
-          <p
-            className={`${Styles.fadeInIntro} border-b border-dkGray text-mdGray text-xl text-center leading-7 p-6`}
-          >
-            As a full-stack web developer, I have the same passion for creating
-            unique and modern user interfaces and optimize backend databases to
-            give you the best web experience possible. As a former restaurant
-            manager and team leader, I have over ten years of experience in
-            delivering customer satisfaction, maintaining a positive attitude,
-            and solving problems creatively.
-          </p>
         </div>
-        <Image
-          id={Styles.profile}
-          className={`${Styles.fadeInImage} bg-gradient-to-l from-blue border-r rounded-r-full border-blue`}
-          width={500}
-          height={300}
-          src="/profile-3.jpg"
-          alt="Picture of the author"
-        />
       </div>
     </div>
   );

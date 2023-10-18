@@ -11,11 +11,11 @@
 }
 
 .fadeInIntro {
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 
 .fadeInImage {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 @keyframes fadeIn {
