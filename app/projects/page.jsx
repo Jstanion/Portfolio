@@ -83,7 +83,7 @@ export default function Project() {
                 alt="Weather Forecast app thumbnail"
               />
             </section>
-            <section id="mrMovie" className={`${Styles.projectSection} text-blue`}>
+            <section id={Styles.mrMovie} className={`${Styles.projectSection} text-blue`}>
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -108,7 +108,7 @@ export default function Project() {
                 alt="Mr Movie app thumbnail"
               />
             </section>
-            <section id="taskScheduler" className={`${Styles.projectSection} text-blue`}>
+            <section id={Styles.taskScheduler} className={`${Styles.projectSection} text-blue`}>
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -133,7 +133,7 @@ export default function Project() {
                 alt="Task Scheduler app thumbnail"
               />
             </section>
-            <section id="littlePiggy" className={`${Styles.projectSection} text-blue`}>
+            <section id={Styles.littlePiggy} className={`${Styles.projectSection} text-blue`}>
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -158,7 +158,7 @@ export default function Project() {
                 alt="This Little Piggy app thumbnail"
               />
             </section>
-            <section id="passwordGenerator" className={`${Styles.projectSection} text-blue`}>
+            <section id={Styles.passwordGenerator} className={`${Styles.projectSection} text-blue`}>
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
