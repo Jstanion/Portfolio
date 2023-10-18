@@ -7,6 +7,11 @@
   padding: 4px 16px 4px 16px;
 }
 
+.projectSection {
+  display: grid;
+  padding: 1rem 2rem;
+}
+
 .icons {
   position: absolute;
   display: grid 2;
@@ -14,7 +19,7 @@
   z-index: 10;
   background-color: rgb(205, 209, 196);
   border-radius: .5rem;
-  padding: 2rem 4rem;
+  padding: 3% 5%;
 }
 
 .icons:hover {
@@ -33,4 +38,28 @@
   opacity: 0;
   transition: 0.5s ease-in-out;
   z-index: 1;
+}
+
+#shortStack,
+#weatherDashboard, {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fadeInIntro {
+  animation-delay: 2s;
+}
+
+.fadeInImage {
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }

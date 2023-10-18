@@ -31,9 +31,9 @@ export default function Project() {
             <button className={Styles.button}>NEXT JS</button>
           </div>
         </div> */}
-        <div className="flex justify-center items-center h-full">
-          <div className="grid grid-cols-3 gap-8">
-            <section id="shortStack" className="grid h-fit w-fit text-blue">
+        <div className="container flex justify-center items-start h-full">
+          <div className="flex justify-center items-center flex-wrap h-full">
+            <section id={Styles.shortStack} className={`${Styles.projectSection} text-blue`}>
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -53,12 +53,12 @@ export default function Project() {
               <Image
                 className={Styles.img}
                 src="/shortStack.png"
-                width={300}
+                width={325}
                 height={200}
                 alt="Short Stack Videos app thumbnail"
               />
             </section>
-            <section id="weatherDashboard" className="grid h-fit w-fit text-blue">
+            <section id={Styles.weatherDashboard} className={`${Styles.projectSection} text-blue`}>
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -78,12 +78,12 @@ export default function Project() {
               <Image
                 className={Styles.img}
                 src="/weatherForecast.png"
-                width={300}
+                width={325}
                 height={200}
                 alt="Weather Forecast app thumbnail"
               />
             </section>
-            <section id="mrMovie" className="grid h-fit w-fit text-blue">
+            <section id="mrMovie" className={`${Styles.projectSection} text-blue`}>
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -103,12 +103,12 @@ export default function Project() {
               <Image
                 className={Styles.img}
                 src="/mrMovie.png"
-                width={300}
+                width={325}
                 height={200}
                 alt="Mr Movie app thumbnail"
               />
             </section>
-            <section id="taskScheduler" className="grid h-fit w-fit text-blue">
+            <section id="taskScheduler" className={`${Styles.projectSection} text-blue`}>
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -128,12 +128,12 @@ export default function Project() {
               <Image
                 className={Styles.img}
                 src="/taskScheduler.png"
-                width={300}
+                width={325}
                 height={200}
                 alt="Task Scheduler app thumbnail"
               />
             </section>
-            <section id="littlePiggy" className="grid h-fit w-fit text-blue">
+            <section id="littlePiggy" className={`${Styles.projectSection} text-blue`}>
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -153,12 +153,12 @@ export default function Project() {
               <Image
                 className={Styles.img}
                 src="/thisLittlePiggy.png"
-                width={300}
+                width={325}
                 height={200}
                 alt="This Little Piggy app thumbnail"
               />
             </section>
-            <section id="passwordGenerator" className="grid h-fit w-fit text-blue">
+            <section id="passwordGenerator" className={`${Styles.projectSection} text-blue`}>
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -178,7 +178,7 @@ export default function Project() {
               <Image
                 className={Styles.img}
                 src="/passwordGenerator.png"
-                width={300}
+                width={325}
                 height={200}
                 alt="Password Generator app thumbnail"
               />
