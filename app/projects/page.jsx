@@ -31,157 +31,159 @@ export default function Project() {
             <button className={Styles.button}>NEXT JS</button>
           </div>
         </div> */}
-        <div className="flex justify-center flex-wrap">
-          <section id="shortStack" className="text-blue">
-            <div className={Styles.icons}>
-              <a
-                className="hover:text-yellow"
-                href="https://shortstack.vercel.app/"
-              >
-                <FaDesktop className="text-5xl ml-2" />
-                <p>Website</p>
-              </a>
-              <a
-                className="hover:text-yellow"
-                href="https://github.com/Jstanion/ShortStack"
-              >
-                <FaGithub className="text-5xl ml-1" />
-                <p>GitHub</p>
-              </a>
-            </div>
-            <Image
-              className={Styles.img}
-              src="/shortStack.png"
-              width={400}
-              height={200}
-              alt="Short Stack Videos app thumbnail"
-            />
-          </section>
-          <section id="weatherDashboard" className="text-blue">
-            <div className={Styles.icons}>
-              <a
-                className="hover:text-yellow"
-                href="https://jstanion.github.io/weather-dashboard/"
-              >
-                <FaDesktop className="text-5xl ml-2" />
-                <p>Website</p>
-              </a>
-              <a
-                className="hover:text-yellow"
-                href="https://github.com/Jstanion/weather-dashboard"
-              >
-                <FaGithub className="text-5xl ml-1" />
-                <p>GitHub</p>
-              </a>
-            </div>
-            <Image
-              className={Styles.img}
-              src="/weatherForecast.png"
-              width={400}
-              height={200}
-              alt="Weather Forecast app thumbnail"
-            />
-          </section>
-          <section id="mrMovie" className="text-blue">
-            <div className={Styles.icons}>
-              <a
-                className="hover:text-yellow"
-                href="https://jstanion.github.io/Mr-Movie/"
-              >
-                <FaDesktop className="text-5xl ml-2" />
-                <p>Website</p>
-              </a>
-              <a
-                className="hover:text-yellow"
-                href="https://github.com/Jstanion/Mr-Movie"
-              >
-                <FaGithub className="text-5xl ml-1" />
-                <p>GitHub</p>
-              </a>
-            </div>
-            <Image
-              className={Styles.img}
-              src="/mrMovie.png"
-              width={400}
-              height={200}
-              alt="Mr Movie app thumbnail"
-            />
-          </section>
-          <section id="taskScheduler" className="text-blue">
-            <div className={Styles.icons}>
-              <a
-                className="hover:text-yellow"
-                href="https://jstanion.github.io/work-day-scheduler/"
-              >
-                <FaDesktop className="text-5xl ml-2" />
-                <p>Website</p>
-              </a>
-              <a
-                className="hover:text-yellow"
-                href="https://github.com/Jstanion/work-day-scheduler"
-              >
-                <FaGithub className="text-5xl ml-1" />
-                <p>GitHub</p>
-              </a>
-            </div>
-            <Image
-              className={Styles.img}
-              src="/taskScheduler.png"
-              width={400}
-              height={200}
-              alt="Task Scheduler app thumbnail"
-            />
-          </section>
-          <section id="littlePiggy" className="text-blue">
-            <div className={Styles.icons}>
-              <a
-                className="hover:text-yellow"
-                href="https://this-little-piggy-a60cf3e8f6ed.herokuapp.com/"
-              >
-                <FaDesktop className="text-5xl ml-2" />
-                <p>Website</p>
-              </a>
-              <a
-                className="hover:text-yellow"
-                href="https://github.com/Jstanion/This-Little-Piggy"
-              >
-                <FaGithub className="text-5xl ml-1" />
-                <p>GitHub</p>
-              </a>
-            </div>
-            <Image
-              className={Styles.img}
-              src="/thisLittlePiggy.png"
-              width={400}
-              height={200}
-              alt="This Little Piggy app thumbnail"
-            />
-          </section>
-          <section id="passwordGenerator" className="text-blue">
-            <div className={Styles.icons}>
-              <a
-                className="hover:text-yellow"
-                href="https://jstanion.github.io/password-generator/"
-              >
-                <FaDesktop className="text-5xl ml-2" />
-                <p>Website</p>
-              </a>
-              <a
-                className="hover:text-yellow"
-                href="https://github.com/Jstanion/password-generator"
-              >
-                <FaGithub className="text-5xl ml-1" />
-                <p>GitHub</p>
-              </a>
-            </div>
-            <Image
-              className={Styles.img}
-              src="/passwordGenerator.png"
-              width={400}
-              height={200}
-              alt="Password Generator app thumbnail"
-            />
-          </section>
+        <div className="flex justify-center items-center h-full">
+          <div className="grid grid-cols-3 gap-8">
+            <section id="shortStack" className="grid h-fit w-fit text-blue">
+              <div className={`${Styles.icons} place-self-center`}>
+                <a
+                  className="hover:text-yellow"
+                  href="https://shortstack.vercel.app/"
+                >
+                  <FaDesktop className="text-5xl ml-2" />
+                  <p>Website</p>
+                </a>
+                <a
+                  className="hover:text-yellow"
+                  href="https://github.com/Jstanion/ShortStack"
+                >
+                  <FaGithub className="text-5xl ml-1" />
+                  <p>GitHub</p>
+                </a>
+              </div>
+              <Image
+                className={Styles.img}
+                src="/shortStack.png"
+                width={300}
+                height={200}
+                alt="Short Stack Videos app thumbnail"
+              />
+            </section>
+            <section id="weatherDashboard" className="grid h-fit w-fit text-blue">
+              <div className={`${Styles.icons} place-self-center`}>
+                <a
+                  className="hover:text-yellow"
+                  href="https://jstanion.github.io/weather-dashboard/"
+                >
+                  <FaDesktop className="text-5xl ml-2" />
+                  <p>Website</p>
+                </a>
+                <a
+                  className="hover:text-yellow"
+                  href="https://github.com/Jstanion/weather-dashboard"
+                >
+                  <FaGithub className="text-5xl ml-1" />
+                  <p>GitHub</p>
+                </a>
+              </div>
+              <Image
+                className={Styles.img}
+                src="/weatherForecast.png"
+                width={300}
+                height={200}
+                alt="Weather Forecast app thumbnail"
+              />
+            </section>
+            <section id="mrMovie" className="grid h-fit w-fit text-blue">
+              <div className={`${Styles.icons} place-self-center`}>
+                <a
+                  className="hover:text-yellow"
+                  href="https://jstanion.github.io/Mr-Movie/"
+                >
+                  <FaDesktop className="text-5xl ml-2" />
+                  <p>Website</p>
+                </a>
+                <a
+                  className="hover:text-yellow"
+                  href="https://github.com/Jstanion/Mr-Movie"
+                >
+                  <FaGithub className="text-5xl ml-1" />
+                  <p>GitHub</p>
+                </a>
+              </div>
+              <Image
+                className={Styles.img}
+                src="/mrMovie.png"
+                width={300}
+                height={200}
+                alt="Mr Movie app thumbnail"
+              />
+            </section>
+            <section id="taskScheduler" className="grid h-fit w-fit text-blue">
+              <div className={`${Styles.icons} place-self-center`}>
+                <a
+                  className="hover:text-yellow"
+                  href="https://jstanion.github.io/work-day-scheduler/"
+                >
+                  <FaDesktop className="text-5xl ml-2" />
+                  <p>Website</p>
+                </a>
+                <a
+                  className="hover:text-yellow"
+                  href="https://github.com/Jstanion/work-day-scheduler"
+                >
+                  <FaGithub className="text-5xl ml-1" />
+                  <p>GitHub</p>
+                </a>
+              </div>
+              <Image
+                className={Styles.img}
+                src="/taskScheduler.png"
+                width={300}
+                height={200}
+                alt="Task Scheduler app thumbnail"
+              />
+            </section>
+            <section id="littlePiggy" className="grid h-fit w-fit text-blue">
+              <div className={`${Styles.icons} place-self-center`}>
+                <a
+                  className="hover:text-yellow"
+                  href="https://this-little-piggy-a60cf3e8f6ed.herokuapp.com/"
+                >
+                  <FaDesktop className="text-5xl ml-2" />
+                  <p>Website</p>
+                </a>
+                <a
+                  className="hover:text-yellow"
+                  href="https://github.com/Jstanion/This-Little-Piggy"
+                >
+                  <FaGithub className="text-5xl ml-1" />
+                  <p>GitHub</p>
+                </a>
+              </div>
+              <Image
+                className={Styles.img}
+                src="/thisLittlePiggy.png"
+                width={300}
+                height={200}
+                alt="This Little Piggy app thumbnail"
+              />
+            </section>
+            <section id="passwordGenerator" className="grid h-fit w-fit text-blue">
+              <div className={`${Styles.icons} place-self-center`}>
+                <a
+                  className="hover:text-yellow"
+                  href="https://jstanion.github.io/password-generator/"
+                >
+                  <FaDesktop className="text-5xl ml-2" />
+                  <p>Website</p>
+                </a>
+                <a
+                  className="hover:text-yellow"
+                  href="https://github.com/Jstanion/password-generator"
+                >
+                  <FaGithub className="text-5xl ml-1" />
+                  <p>GitHub</p>
+                </a>
+              </div>
+              <Image
+                className={Styles.img}
+                src="/passwordGenerator.png"
+                width={300}
+                height={200}
+                alt="Password Generator app thumbnail"
+              />
+            </section>
+          </div>
         </div>
       </div>
     </div>

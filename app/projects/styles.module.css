@@ -13,7 +13,8 @@
   columns: 2;
   z-index: 10;
   background-color: rgb(205, 209, 196);
-  padding: 77px 131px;
+  border-radius: .5rem;
+  padding: 2rem 4rem;
 }
 
 .icons:hover {
@@ -25,6 +26,7 @@
   opacity: 1;
   transition: 0.5s ease-in-out;
   z-index: 15;
+  border-radius: .5rem;
 }
 
 .img:hover {
