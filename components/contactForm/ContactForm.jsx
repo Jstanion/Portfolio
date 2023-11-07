@@ -1,5 +1,5 @@
 'use client';
-// import Styles from "../contact/styles.module.css"
+import Styles from "./styles.module.css";
 
 export default function ContactForm() {
   <form className={`${Styles.container} w-1/2`}>
