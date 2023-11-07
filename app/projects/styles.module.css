@@ -7,13 +7,19 @@
   padding: 4px 16px 4px 16px;
 }
 
+.projectSection {
+  display: grid;
+  padding: 1rem 2rem;
+}
+
 .icons {
   position: absolute;
   display: grid 2;
   columns: 2;
   z-index: 10;
   background-color: rgb(205, 209, 196);
-  padding: 77px 131px;
+  border-radius: .5rem;
+  padding: 3% 5%;
 }
 
 .icons:hover {
@@ -25,10 +31,51 @@
   opacity: 1;
   transition: 0.5s ease-in-out;
   z-index: 15;
+  border-radius: .5rem;
 }
 
 .img:hover {
   opacity: 0;
   transition: 0.5s ease-in-out;
   z-index: 1;
+}
+
+#shortStack,
+#weatherDashboard,
+#mrMovie,
+#taskScheduler,
+#littlePiggy,
+#passwordGenerator{
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+#weatherDashboard {
+  animation-delay: .25s;
+}
+
+#mrMovie {
+  animation-delay: .5s;
+}
+
+#taskScheduler {
+  animation-delay: .75s;
+}
+
+#littlePiggy {
+  animation-delay: 1s;
+}
+
+#passwordGenerator {
+  animation-delay: 1.25s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }

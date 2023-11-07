@@ -1,9 +1,21 @@
-.fadeIn {
+.fadeInTitle,
+.fadeInIntro,
+.fadeInImage {
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
   -moz-animation: fadeIn ease 3s;
   -o-animation: fadeIn ease 3s;
   -ms-animation: fadeIn ease 3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.fadeInIntro {
+  animation-delay: 2s;
+}
+
+.fadeInImage {
+  animation-delay: 1s;
 }
 
 @keyframes fadeIn {
