@@ -1,8 +1,8 @@
-"use client";
-import React from "react";
+import React from 'react';
 import Styles from "./styles.module.css";
+import ContactForm from '@/components/ContactForm';
 
-export default function Project() {
+const Contact = () => {
   return (
     <div className="flex flex-col justify-between items-center w-full">
       <div className="flex justify-end w-full">
@@ -12,6 +12,9 @@ export default function Project() {
           </h1>
         </div>
       </div>
+      <ContactForm />
     </div>
-  );
+  )
 }
+
+export default Contact
