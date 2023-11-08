@@ -1,13 +1,16 @@
 import Image from "next/image";
 import Styles from "./styles.module.css";
+import React from "react";
 
-export default function About() {
+const About = () => {
   return (
     <div className="flex flex-col items-end w-full h-full">
       <div className="flex justify-end w-full">
         <div className="flex justify-end w-full">
-          <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray py-4 w-9/12 shadow-lg shadow-black">
-            <span className="pl-10">ABOUT ME</span>
+          <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray font-extralight py-4 w-9/12 shadow-lg shadow-black">
+            <span className="pl-10 text-yellow">ABOUT</span>
+            <span className="text-xs"> </span>
+            <span className="font-bold">ME</span>
           </h1>
         </div>
       </div>
@@ -19,10 +22,10 @@ export default function About() {
             >
               <div className="flex justify-center w-full border-l bg-gradient-to-r from-blue rounded-l-full border-blue p-4">
                 <span className="text-yellow text-6xl">J</span>
-                <p className="text-ltGray text-4xl">
+                <p className="text-ltGray text-4xl font-extralight">
                   oseph
                   <br />
-                  <span className="text-yellow text-6xl">S</span>tanion
+                  <span className="text-yellow text-6xl font-normal">S</span>tanion
                 </p>
               </div>
               <p
@@ -30,9 +33,8 @@ export default function About() {
               >
                 <span className="text-dkGray">
                   As a full-stack web developer, I have a strong passion for
-                  creating unique, modern user interfaces and optimized
-                  backend databases to give you the best web experience
-                  possible.{" "}
+                  creating unique, modern user interfaces and optimized backend
+                  databases to give you the best web experience possible.{" "}
                 </span>
                 <span className="text-ltGray">
                   As a former restaurant manager and team leader, I have over
@@ -55,4 +57,6 @@ export default function About() {
       </div>
     </div>
   );
-}
+};
+
+export default About;

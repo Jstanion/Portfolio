@@ -37,9 +37,9 @@ const Skills = () => {
       <div className="flex justify-end w-full">
         <div className="flex justify-end w-full">
           <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray font-extralight py-4 w-9/12 shadow-lg shadow-black">
-            <span className="pl-10">TOOLS</span>
+            <span className="pl-10 text-yellow">TOOLS</span>
             <span className="text-xs"> </span>
-            <span className="text-2xl font-thin align-middle">&</span>
+            <span className="text-2xl font-thin align-middle text-dkGray">&</span>
             <span className="text-xs"> </span>
             <span className="font-bold">SKILLS</span>
           </h1>
