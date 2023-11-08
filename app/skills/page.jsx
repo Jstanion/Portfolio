@@ -1,3 +1,4 @@
+import React from "react";
 import { DiJavascript } from "react-icons/di";
 import {
   FaCss3Alt,
@@ -30,7 +31,7 @@ import { GrMysql } from "react-icons/gr";
 import { TbSeo } from "react-icons/tb";
 import Styles from "./styles.module.css";
 
-export default function Project() {
+const Skills = () => {
   return (
     <div className="flex flex-col justify-between items-end w-full">
       <div className="flex justify-end w-full">
@@ -152,7 +153,6 @@ export default function Project() {
                 <BsGithub className="text-5xl" />
                 <p>GitHub</p>
               </div>
-
               <div className="flex flex-col items-center hover:text-herokuPurple transition-colors duration-500">
                 <SiHeroku className="text-5xl" />
                 <p>Heroku</p>
@@ -214,4 +214,6 @@ export default function Project() {
       </div>
     </div>
   );
-}
+};
+
+export default Skills;
