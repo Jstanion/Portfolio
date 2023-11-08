@@ -7,7 +7,8 @@ const Contact = () => {
       <div className="flex justify-end w-full">
         <div className="flex justify-end w-full">
           <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray font-extralight py-4 w-9/12 shadow-lg shadow-black">
-            <span className="pl-10">CONTACT </span>
+            <span className="pl-10">CONTACT</span>
+            <span className="text-xs"> </span>
             <span className="font-bold">ME</span>
           </h1>
         </div>
