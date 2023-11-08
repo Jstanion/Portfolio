@@ -45,7 +45,7 @@ const Skills = () => {
       </div>
       <div className="flex flex-col justify-evenly items-end h-5/6 w-full">
         <div className="flex justify-start w-full">
-          <p class="text-ltGray text-xl">Tools I use to create...</p>
+          <p class="text-ltGray text-xl">What I use to create...</p>
         </div>
         <div className="flex justify-between items-center w-full">
           <p className="text-ltGray text-xl text-center">
