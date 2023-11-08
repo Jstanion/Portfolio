@@ -12,7 +12,7 @@ const ContactForm = () => {
     e.preventDefault();
     const formData = new FormData(e.target);
 
-    formData.append("access_key", "af4c5bf1-7b35-48ad-a872-8ce8d3802deb");
+    formData.append("access_key", "4e413620-682a-4b6a-9949-d049c67ce596");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -34,6 +34,7 @@ const ContactForm = () => {
       setMessage("");
       setDropdownSelection("");
     }
+  }
 
   return (
     <form 
