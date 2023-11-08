@@ -12,14 +12,6 @@ const Project = () => {
             <span className="pl-10">PROJECTS</span>
           </h1>
         </div>
-        {/* <div className="flex justify-evenly w-full">
-          <div className="flex justify-evenly text-ltGray text-xl w-full pt-10">
-            <button className={Styles.button}>ALL</button>
-            <button className={Styles.button}>JAVASCRIPT</button>
-            <button className={Styles.button}>REACT JS</button>
-            <button className={Styles.button}>NEXT JS</button>
-          </div>
-        </div> */}
         <div className="container flex justify-center items-start h-full">
           <div className="flex justify-center items-center flex-wrap h-full">
             <section
