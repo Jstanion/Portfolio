@@ -1,39 +1,25 @@
+import React from "react";
 import Image from "next/image";
 import Styles from "./styles.module.css";
 import { FaDesktop, FaGithub } from "react-icons/fa";
 
-export default function Project() {
-  // Working on the toggle_visibility function to show/hide projects based on the button clicked
-  //   function toggle_visibility() {
-  //     for (var i = 0; i < arguments.length; i++) {
-  //         var element = document.getElementById(arguments[i]);
-  //         if (element.id === arguments[i]) {
-  //             element.style.display = "block";
-  //         } else {
-  //             element.style.display = "none";
-  //         }
-  //     }
-  // }
-
+const Project = () => {
   return (
     <div className="flex flex-col w-full h-full">
       <div className="flex flex-col justify-between items-center h-full">
         <div className="flex flex-col items-end w-full">
-          <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray py-4 w-9/12 shadow-lg shadow-black">
-            <span className="pl-10">PROJECTS</span>
+          <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray font-extralight py-4 w-9/12 shadow-lg shadow-black">
+            <span className="pl-10">MY</span>
+            <span className="text-xs"> </span>
+            <span className="font-bold">PROJECTS</span>
           </h1>
         </div>
-        {/* <div className="flex justify-evenly w-full">
-          <div className="flex justify-evenly text-ltGray text-xl w-full pt-10">
-            <button className={Styles.button}>ALL</button>
-            <button className={Styles.button}>JAVASCRIPT</button>
-            <button className={Styles.button}>REACT JS</button>
-            <button className={Styles.button}>NEXT JS</button>
-          </div>
-        </div> */}
         <div className="container flex justify-center items-start h-full">
           <div className="flex justify-center items-center flex-wrap h-full">
-            <section id={Styles.shortStack} className={`${Styles.projectSection} text-blue`}>
+            <section
+              id={Styles.shortStack}
+              className={`${Styles.projectSection} text-blue`}
+            >
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -58,7 +44,10 @@ export default function Project() {
                 alt="Short Stack Videos app thumbnail"
               />
             </section>
-            <section id={Styles.weatherDashboard} className={`${Styles.projectSection} text-blue`}>
+            <section
+              id={Styles.weatherDashboard}
+              className={`${Styles.projectSection} text-blue`}
+            >
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -83,7 +72,10 @@ export default function Project() {
                 alt="Weather Forecast app thumbnail"
               />
             </section>
-            <section id={Styles.mrMovie} className={`${Styles.projectSection} text-blue`}>
+            <section
+              id={Styles.mrMovie}
+              className={`${Styles.projectSection} text-blue`}
+            >
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -108,7 +100,10 @@ export default function Project() {
                 alt="Mr Movie app thumbnail"
               />
             </section>
-            <section id={Styles.taskScheduler} className={`${Styles.projectSection} text-blue`}>
+            <section
+              id={Styles.taskScheduler}
+              className={`${Styles.projectSection} text-blue`}
+            >
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -133,7 +128,10 @@ export default function Project() {
                 alt="Task Scheduler app thumbnail"
               />
             </section>
-            <section id={Styles.littlePiggy} className={`${Styles.projectSection} text-blue`}>
+            <section
+              id={Styles.littlePiggy}
+              className={`${Styles.projectSection} text-blue`}
+            >
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -158,7 +156,10 @@ export default function Project() {
                 alt="This Little Piggy app thumbnail"
               />
             </section>
-            <section id={Styles.passwordGenerator} className={`${Styles.projectSection} text-blue`}>
+            <section
+              id={Styles.passwordGenerator}
+              className={`${Styles.projectSection} text-blue`}
+            >
               <div className={`${Styles.icons} place-self-center`}>
                 <a
                   className="hover:text-yellow"
@@ -188,4 +189,6 @@ export default function Project() {
       </div>
     </div>
   );
-}
+};
+
+export default Project;
