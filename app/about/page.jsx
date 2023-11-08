@@ -29,8 +29,8 @@ export default function About() {
                 className={`${Styles.fadeInIntro} text-md text-center leading-7 p-6 w-5/6`}
               >
                 <span className="text-dkGray">
-                  As a full-stack web developer, I have the same passion for
-                  creating unique and modern user interfaces and optimize
+                  As a full-stack web developer, I have a strong passion for
+                  creating unique, modern user interfaces and optimized
                   backend databases to give you the best web experience
                   possible.{" "}
                 </span>
