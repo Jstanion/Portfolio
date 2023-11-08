@@ -1,11 +1,15 @@
-'use client';
+"use client";
 
-import React from 'react'
+import React, { useState } from "react";
 
 const ContactForm = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [dropdownSelection, setDropdownSelection] = useState("");
+
   return (
-    <form className="form-control w-full"
-    >
+    <form className="form-control w-full">
       <div className="flex justify-between w-full">
         <div className="flex flex-col mb-4 w-2/5">
           <label htmlFor="name" className="label">
@@ -36,17 +40,12 @@ const ContactForm = () => {
         <label htmlFor="subject" className="label">
           <span className="label-text text-white font-light">Subject</span>
         </label>
-        <select
-          className="select select-bordered select-sm w-full text-neutral font-light bg-white"
-        >
+        <select className="select select-bordered select-sm w-full text-neutral font-light bg-white">
           <option className="font-light">Select one...</option>
           <option className="font-light">General Information</option>
           <option className="font-light">Project Opportunities</option>
         </select>
-        <input
-          type="hidden"
-          name="subject"
-          />
+        <input type="hidden" name="subject" />
       </div>
       <div className="flex flex-col mb-4">
         <label htmlFor="message" className="label">
@@ -67,60 +66,59 @@ const ContactForm = () => {
         className="btn btn-outline text-white hover:bg-white hover:bg-opacity-40 w-1/3"
       />
     </form>
-  )
-}
+  );
+};
 
-export default ContactForm
-
+export default ContactForm;
 
 // import Styles from "./styles.module.css";
 
 // export default function ContactForm() {
-  // <form className={`${Styles.container} w-1/2`}>
-  //   <div className={Styles.name}>
-  //     <div>
-  //       <label htmlFor="frm-first">First Name</label>
-  //       <input
-  //         id="frm-first"
-  //         type="text"
-  //         name="first"
-  //         autoComplete="given-name"
-  //         required
-  //       />
-  //     </div>
-  //     <div>
-  //       <label htmlFor="frm-last">Last Name</label>
-  //       <input
-  //         id="frm-last"
-  //         type="text"
-  //         name="last"
-  //         autoComplete="family-name"
-  //         required
-  //       />
-  //     </div>
-  //   </div>
-  //   <div className={`email ${Styles.block}`}>
-  //     <label htmlFor="frm-email">Email</label>
-  //     <input
-  //       id="frm-email"
-  //       type="email"
-  //       name="email"
-  //       autoComplete="email"
-  //       required
-  //     />
-  //   </div>
-  //   <div className={`message ${Styles.block}`}>
-  //     <label htmlFor="frm-message">Message</label>
-  //     <textarea
-  //       id="frm-message"
-  //       className={Styles.textarea}
-  //       rows="6"
-  //       name="message"
-  //     ></textarea>
-  //   </div>
-  //   <div className={`button ${Styles.block}`}>
-  //     <button type="submit">Submit</button>
-  //   </div>
-  // </form>;
-  
+// <form className={`${Styles.container} w-1/2`}>
+//   <div className={Styles.name}>
+//     <div>
+//       <label htmlFor="frm-first">First Name</label>
+//       <input
+//         id="frm-first"
+//         type="text"
+//         name="first"
+//         autoComplete="given-name"
+//         required
+//       />
+//     </div>
+//     <div>
+//       <label htmlFor="frm-last">Last Name</label>
+//       <input
+//         id="frm-last"
+//         type="text"
+//         name="last"
+//         autoComplete="family-name"
+//         required
+//       />
+//     </div>
+//   </div>
+//   <div className={`email ${Styles.block}`}>
+//     <label htmlFor="frm-email">Email</label>
+//     <input
+//       id="frm-email"
+//       type="email"
+//       name="email"
+//       autoComplete="email"
+//       required
+//     />
+//   </div>
+//   <div className={`message ${Styles.block}`}>
+//     <label htmlFor="frm-message">Message</label>
+//     <textarea
+//       id="frm-message"
+//       className={Styles.textarea}
+//       rows="6"
+//       name="message"
+//     ></textarea>
+//   </div>
+//   <div className={`button ${Styles.block}`}>
+//     <button type="submit">Submit</button>
+//   </div>
+// </form>;
+
 // }
