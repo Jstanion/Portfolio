@@ -8,10 +8,39 @@ const ContactForm = () => {
   const [message, setMessage] = useState("");
   const [dropdownSelection, setDropdownSelection] = useState("");
 
-  
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+
+    formData.append("access_key", "af4c5bf1-7b35-48ad-a872-8ce8d3802deb");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    });
+    const result = await response.json();
+    if (result.success) {
+      console.log(result);
+      alert("Your email was sent successfully.");
+      setName("");
+      setEmail("");
+      setMessage("");
+      setDropdownSelection("");
+    }
 
   return (
-    <form className="form-control w-full">
+    <form 
+    onSubmit={(e) => {
+      handleSubmit(e);
+    }}
+    className="form-control w-full">
       <div className="flex justify-between w-full">
         <div className="flex flex-col mb-4 w-2/5">
           <label htmlFor="name" className="label">
