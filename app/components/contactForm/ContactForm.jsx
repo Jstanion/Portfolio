@@ -8,6 +8,8 @@ const ContactForm = () => {
   const [message, setMessage] = useState("");
   const [dropdownSelection, setDropdownSelection] = useState("");
 
+  
+
   return (
     <form className="form-control w-full">
       <div className="flex justify-between w-full">
@@ -18,6 +20,10 @@ const ContactForm = () => {
           <input
             type="text"
             name="name"
+            value={name}
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
             required
             placeholder="Name"
             className="input input-bordered input-sm w-full bg-white text-neutral font-light mr-2"
@@ -30,6 +36,10 @@ const ContactForm = () => {
           <input
             type="email"
             name="email"
+            value={email}
+            onChange={(e) => {
+              setEmail(e.target.value);
+            }}
             required
             placeholder="example@domain.com"
             className="input input-bordered input-sm w-full bg-white text-neutral font-light"
@@ -40,12 +50,19 @@ const ContactForm = () => {
         <label htmlFor="subject" className="label">
           <span className="label-text text-white font-light">Subject</span>
         </label>
-        <select className="select select-bordered select-sm w-full text-neutral font-light bg-white">
+        <select 
+        value={dropdownSelection}
+        onChange={(e) => setDropdownSelection(e.target.value)}
+        className="select select-bordered select-sm w-full text-neutral font-light bg-white">
           <option className="font-light">Select one...</option>
           <option className="font-light">General Information</option>
           <option className="font-light">Project Opportunities</option>
         </select>
-        <input type="hidden" name="subject" />
+        <input 
+        type="hidden"
+        name="subject"
+        value={`New portfolio form submission: ${dropdownSelection}`}
+        />
       </div>
       <div className="flex flex-col mb-4">
         <label htmlFor="message" className="label">
@@ -55,6 +72,10 @@ const ContactForm = () => {
         </label>
         <textarea
           name="message"
+          value={message}
+          onChange={(e) => {
+            setMessage(e.target.value);
+          }}
           required
           placeholder="Type your message"
           className="textarea textarea-bordered h-24 bg-white text-neutral font-light"
