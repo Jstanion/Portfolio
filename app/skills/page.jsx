@@ -33,12 +33,13 @@ import Styles from "./styles.module.css";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-between items-end w-full">
+    <div className="flex flex-col items-end w-full h-full">
       <div className="flex justify-end w-full">
-        <div className="flex justify-between items-center w-full">
-          <p className="text-ltGray text-xl">Tools I use to create...</p>
-          <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray py-4 w-9/12 shadow-lg shadow-black">
-            <span className="pl-10">SKILLS</span>
+        <div className="flex justify-end w-full">
+          <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray font-extralight py-4 w-9/12 shadow-lg shadow-black">
+            <span className="pl-10">TOOLS </span>
+            <span className="text-2xl font-normal align-middle">&</span>
+            <span className="font-bold"> SKILLS</span>
           </h1>
         </div>
       </div>
@@ -49,7 +50,7 @@ const Skills = () => {
             <br />
             Back-End Applications
           </p>
-          <div className="flex justify-evenly items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-full w-7/12 font-bold p-5 shadow-lg shadow-dkGray">
+          <div className="flex justify-evenly items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-full w-7/12 font-bold p-4 shadow-lg shadow-dkGray">
             <div className="flex flex-wrap justify-evenly items-center w-full">
               <div className="flex flex-col items-center hover:text-nodeGreen transition-colors duration-500">
                 <FaNodeJs className="text-5xl" />
@@ -95,7 +96,7 @@ const Skills = () => {
             <br />
             Client-Side Applications
           </p>
-          <div className="flex justify-evenly items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-full w-8/12 font-bold p-5 shadow-lg shadow-dkGray">
+          <div className="flex justify-evenly items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-full w-8/12 font-bold p-4 shadow-lg shadow-dkGray">
             <div className="flex flex-col items-center hover:text-htmlOrange transition-colors duration-500">
               <FaHtml5 className="text-5xl" />
               <p>HTML5</p>
@@ -136,7 +137,7 @@ const Skills = () => {
             <br />
             and Tools...
           </p>
-          <div className="flex flex-col justify-evenly items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-full w-9/12 font-bold p-5 shadow-lg shadow-dkGray">
+          <div className="flex flex-col justify-evenly items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-full w-9/12 font-bold p-4 shadow-lg shadow-dkGray">
             <div className="flex justify-evenly items-center w-full">
               <div className="flex flex-col items-center hover:text-npmRed transition-colors duration-500">
                 <FaNpm className="text-5xl" />
