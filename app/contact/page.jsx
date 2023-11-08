@@ -3,7 +3,7 @@ import ContactForm from "../components/contactForm/ContactForm";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-between items-center w-full">
+    <div className="flex flex-col items-end w-full h-full">
       <div className="flex justify-end w-full">
         <div className="flex justify-end w-full">
           <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray font-extralight py-4 w-9/12 shadow-lg shadow-black">
@@ -12,7 +12,7 @@ const Contact = () => {
           </h1>
         </div>
       </div>
-      <div className="flex justify-center items-start w-3/4">
+      <div className="flex justify-center items-center h-full">
         <section className="flex flex-col justify-center items-center my-4 w-4/5">
           <p className="my-4 text-sm">
             Thank you for your interest. Thank you for your interest. My
@@ -25,7 +25,6 @@ const Contact = () => {
             a bit about yourself, or feel free to explore my website to gain a
             deeper understanding of my work.
           </p>
-
           <ContactForm />
         </section>
       </div>
