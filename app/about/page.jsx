@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-end w-full h-full">
       <div className="flex justify-end w-full">
-        <div className="flex justify-end w-full">
+        <div className={`${Styles.titleDiv} flex justify-end w-full`}>
           <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray font-extralight py-4 w-9/12 shadow-lg shadow-black">
             <span className="pl-10 text-yellow">ABOUT</span>
             <span className="text-xs"> </span>
@@ -25,7 +25,8 @@ const About = () => {
                 <p className="text-ltGray text-4xl font-extralight">
                   oseph
                   <br />
-                  <span className="text-yellow text-6xl font-normal">S</span>tanion
+                  <span className="text-yellow text-6xl font-normal">S</span>
+                  tanion
                 </p>
               </div>
               <p
