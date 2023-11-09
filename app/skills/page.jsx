@@ -48,10 +48,10 @@ const Skills = () => {
         </div>
       </div>
       <div className="flex flex-col justify-evenly items-end h-5/6 w-full">
-        <div className="flex justify-start w-full">
+        <div className={`${Styles.titleFadeIn} flex justify-start w-full`}>
           <p class="text-ltGray text-xl">What I use to create...</p>
         </div>
-        <div className="flex justify-between items-center w-full">
+        <div className={`${Styles.backEndFadeIn} flex justify-between items-center w-full`}>
           <p className="text-ltGray text-xl text-center">
             Optimized and Scalable
             <br />
@@ -99,7 +99,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center w-full">
+        <div className={`${Styles.frontEndFadeIn} flex justify-between items-center w-full`}>
           <p className="text-ltGray text-xl text-center">
             Dynamic and Interactive
             <br />
@@ -142,7 +142,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center w-full">
+        <div className={`${Styles.otherToolsFadeIn} flex justify-between items-center w-full`}>
           <p className="text-ltGray text-xl text-center">
             Additional Technologies
             <br />

@@ -1,33 +1,50 @@
-.titleDiv {
-  animation: slideInFromRight .5s ease-in;
-  -webkit-animation: slideInFromRight .5s ease-in;
-  -moz-animation: slideInFromRight .5s ease-in;
-  -o-animation: slideInFromRight .5s ease-in;
-  -ms-animation: slideInFromRight .5s ease-in;
-}
-
-.backEndDiv {
-  animation: slideInFromRight 1s ease;
+.titleDiv,
+.backEndDiv,
+.frontEndDiv,
+.otherToolsDiv {
+  animation: slideInFromRight 1s ease-in;
   -webkit-animation: slideInFromRight 1s ease-in;
   -moz-animation: slideInFromRight 1s ease-in;
   -o-animation: slideInFromRight 1s ease-in;
   -ms-animation: slideInFromRight 1s ease-in;
 }
 
+.backEndDiv {
+  animation-delay: .5s;
+}
+
 .frontEndDiv {
-  animation: slideInFromRight 1.5s ease;
-  -webkit-animation: slideInFromRight 1.5s ease-in;
-  -moz-animation: slideInFromRight 1.5s ease-in;
-  -o-animation: slideInFromRight 1.5s ease-in;
-  -ms-animation: slideInFromRight 1.5s ease-in;
+  animation-delay: 1s;
 }
 
 .otherToolsDiv {
-  animation: slideInFromRight 2s ease;
-  -webkit-animation: slideInFromRight 2s ease-in;
-  -moz-animation: slideInFromRight 2s ease-in;
-  -o-animation: slideInFromRight 2s ease-in;
-  -ms-animation: slideInFromRight 2s ease-in;
+  animation-delay: 1.5s;
+}
+
+.titleFadeIn,
+.backEndFadeIn,
+.frontEndFadeIn,
+.otherToolsFadeIn {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.titleFadeIn,
+.backEndFadeIn {
+  animation-delay: .5s;
+}
+
+.frontEndFadeIn {
+  animation-delay: 1s;
+}
+
+.otherToolsFadeIn {
+  animation-delay: 1.5s;
 }
 
 /* Icons */
@@ -121,4 +138,14 @@
     transform: translateX(0);
   }
 
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
