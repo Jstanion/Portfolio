@@ -2,11 +2,11 @@
 .backEndDiv,
 .frontEndDiv,
 .otherToolsDiv {
-  animation: slideInFromRight 1s ease-in;
-  -webkit-animation: slideInFromRight 1s ease-in;
-  -moz-animation: slideInFromRight 1s ease-in;
-  -o-animation: slideInFromRight 1s ease-in;
-  -ms-animation: slideInFromRight 1s ease-in;
+  animation: slideInFromRight .5s ease-in;
+  -webkit-animation: slideInFromRight .5s ease-in;
+  -moz-animation: slideInFromRight .5s ease-in;
+  -o-animation: slideInFromRight .5s ease-in;
+  -ms-animation: slideInFromRight .5s ease-in;
 }
 
 .backEndDiv {
