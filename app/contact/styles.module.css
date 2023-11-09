@@ -6,38 +6,15 @@
   -ms-animation: slideInFromRight .5s ease-in;
 }
 
-.fadeInTitle,
-.fadeInIntro,
-.fadeInImage {
+.fadeIn {
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s;
+  animation-delay: .5s;
   opacity: 0;
   animation-fill-mode: forwards;
-}
-
-.fadeInTitle {
-  animation-delay: .5s;
-}
-
-.fadeInImage {
-  animation-delay: 1s;
-}
-
-.fadeInIntro {
-  animation-delay: 1.5s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 @keyframes slideInFromRight {
@@ -49,4 +26,14 @@
     transform: translateX(0);
   }
 
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
