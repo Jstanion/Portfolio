@@ -1,3 +1,11 @@
+.titleDiv {
+  animation: slideInFromRight 1s ease-in;
+  -webkit-animation: slideInFromRight 1s ease-in;
+  -moz-animation: slideInFromRight 1s ease-in;
+  -o-animation: slideInFromRight 1s ease-in;
+  -ms-animation: slideInFromRight 1s ease-in;
+}
+
 .button {
   padding: 4px 16px 4px 16px;
 }
@@ -45,7 +53,7 @@
 #mrMovie,
 #taskScheduler,
 #littlePiggy,
-#passwordGenerator{
+#passwordGenerator {
   animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s;
   -moz-animation: fadeIn ease 1s;
@@ -55,27 +63,47 @@
   animation-fill-mode: forwards;
 }
 
-#weatherDashboard {
-  animation-delay: .25s;
-}
-
-#mrMovie {
-  animation-delay: .5s;
-}
-
-#taskScheduler {
-  animation-delay: .75s;
-}
-
-#littlePiggy {
+#shortStack {
   animation-delay: 1s;
 }
 
-#passwordGenerator {
+#weatherDashboard {
   animation-delay: 1.25s;
 }
 
+#mrMovie {
+  animation-delay: 1.5s;
+}
+
+#taskScheduler {
+  animation-delay: 1.75s;
+}
+
+#littlePiggy {
+  animation-delay: 2s;
+}
+
+#passwordGenerator {
+  animation-delay: 2.25s;
+}
+
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
 }
