@@ -1,3 +1,35 @@
+.titleDiv {
+  animation: slideInFromRight .5s ease-in;
+  -webkit-animation: slideInFromRight .5s ease-in;
+  -moz-animation: slideInFromRight .5s ease-in;
+  -o-animation: slideInFromRight .5s ease-in;
+  -ms-animation: slideInFromRight .5s ease-in;
+}
+
+.backEndDiv {
+  animation: slideInFromRight 1s ease;
+  -webkit-animation: slideInFromRight 1s ease-in;
+  -moz-animation: slideInFromRight 1s ease-in;
+  -o-animation: slideInFromRight 1s ease-in;
+  -ms-animation: slideInFromRight 1s ease-in;
+}
+
+.frontEndDiv {
+  animation: slideInFromRight 1.5s ease;
+  -webkit-animation: slideInFromRight 1.5s ease-in;
+  -moz-animation: slideInFromRight 1.5s ease-in;
+  -o-animation: slideInFromRight 1.5s ease-in;
+  -ms-animation: slideInFromRight 1.5s ease-in;
+}
+
+.otherToolsDiv {
+  animation: slideInFromRight 2s ease;
+  -webkit-animation: slideInFromRight 2s ease-in;
+  -moz-animation: slideInFromRight 2s ease-in;
+  -o-animation: slideInFromRight 2s ease-in;
+  -ms-animation: slideInFromRight 2s ease-in;
+}
+
 /* Icons */
 /* SQL Icon */
 .sqlAnchor:hover .sqlIcon {
@@ -78,4 +110,15 @@
 .sequelizeAnchor:hover .sequelizeText {
   color: #51AFE7;
   transition: color 0.5s ease;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
 }
