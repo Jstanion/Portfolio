@@ -32,12 +32,12 @@ const About = () => {
               <p
                 className={`${Styles.fadeInIntro} text-md text-center leading-7 p-6 w-5/6`}
               >
-                <span className="text-dkGray">
+                <span className="text-ltGray">
                   As a full-stack web developer, I have a strong passion for
                   creating unique, modern user interfaces and optimized backend
                   databases to give you the best web experience possible.{" "}
                 </span>
-                <span className="text-ltGray">
+                <span className="text-mdGray">
                   As a former restaurant manager and team leader, I have over
                   ten years of experience in delivering customer satisfaction,
                   maintaining a positive attitude, and solving problems
