@@ -37,15 +37,16 @@ const ContactForm = () => {
   }
 
   return (
-    <form 
-    onSubmit={(e) => {
-      handleSubmit(e);
-    }}
-    className="form-control w-full">
+    <form
+      onSubmit={(e) => {
+        handleSubmit(e);
+      }}
+      className="form-control w-full"
+    >
       <div className="flex justify-between w-full">
         <div className="flex flex-col mb-4 w-2/5">
           <label htmlFor="name" className="label">
-            <span className="label-text text-white font-light">Name</span>
+            <span className="label-text text-ltGray font-light">Name</span>
           </label>
           <input
             type="text"
@@ -56,12 +57,12 @@ const ContactForm = () => {
             }}
             required
             placeholder="Name"
-            className="input input-bordered input-sm w-full bg-white text-neutral font-light mr-2"
+            className="input input-bordered input-sm w-full bg-ltGray text-neutral font-light mr-2"
           />
         </div>
         <div className="flex flex-col mb-4 w-2/5">
           <label htmlFor="email" className="label">
-            <span className="label-text text-white font-light">Email</span>
+            <span className="label-text text-ltGray font-light">Email</span>
           </label>
           <input
             type="email"
@@ -72,31 +73,32 @@ const ContactForm = () => {
             }}
             required
             placeholder="example@domain.com"
-            className="input input-bordered input-sm w-full bg-white text-neutral font-light"
+            className="input input-bordered input-sm w-full bg-ltGray text-neutral font-light"
           />
         </div>
       </div>
       <div className="flex flex-col mb-4">
         <label htmlFor="subject" className="label">
-          <span className="label-text text-white font-light">Subject</span>
+          <span className="label-text text-ltGray font-light">Subject</span>
         </label>
-        <select 
-        value={dropdownSelection}
-        onChange={(e) => setDropdownSelection(e.target.value)}
-        className="select select-bordered select-sm w-full text-neutral font-light bg-white">
+        <select
+          value={dropdownSelection}
+          onChange={(e) => setDropdownSelection(e.target.value)}
+          className="select select-bordered select-sm w-full text-neutral font-light bg-ltGray"
+        >
           <option className="font-light">Select one...</option>
           <option className="font-light">General Information</option>
           <option className="font-light">Project Opportunities</option>
         </select>
-        <input 
-        type="hidden"
-        name="subject"
-        value={`New portfolio form submission: ${dropdownSelection}`}
+        <input
+          type="hidden"
+          name="subject"
+          value={`New portfolio form submission: ${dropdownSelection}`}
         />
       </div>
       <div className="flex flex-col mb-4">
         <label htmlFor="message" className="label">
-          <span className="label-text text-white font-light">
+          <span className="label-text text-ltGray font-light">
             Comment or Message
           </span>
         </label>
@@ -108,13 +110,13 @@ const ContactForm = () => {
           }}
           required
           placeholder="Type your message"
-          className="textarea textarea-bordered h-24 bg-white text-neutral font-light"
+          className="textarea textarea-bordered h-24 bg-ltGray text-neutral font-light"
         ></textarea>
       </div>
       <input
         type="submit"
         value="Submit"
-        className="btn btn-outline text-white hover:bg-white hover:bg-opacity-40 w-1/3"
+        className="btn btn-outline text-ltGray hover:bg-ltGray hover:bg-opacity-40 w-1/3"
       />
     </form>
   );
