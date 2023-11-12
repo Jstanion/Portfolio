@@ -3,7 +3,7 @@ import React from "react";
 export default function Home() {
   return (
   <main className="flex w-full text-center items-center justify-center">
-      <p className="text-4xl text-mdGray">
+      <p className="text-4xl text-ltGray">
         Hello, I&apos;m{" "}
         <span className="text-yellow dark:drop-shadow-[0_0_0.3rem_#e8c54770] animate-pulse">
           Joseph Stanion.
