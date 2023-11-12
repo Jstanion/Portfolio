@@ -15,17 +15,16 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex justify-center items-center h-full">
-        <section className={`${Styles.fadeIn} flex flex-col justify-center items-center my-4 w-4/5`}>
+        <section
+          className={`${Styles.fadeIn} flex flex-col justify-center items-center my-4 w-4/5`}
+        >
           <p className="my-4 text-sm">
-            Thank you for your interest. Thank you for your interest. My
-            commitment is to deliver innovative and tailored solutions to meet
-            your business or project needs. Whether you require a static
-            website, or a dynamic web application, I am dedicated to assisting
-            you in achieving your objectives. I&apos;m eager to hear about your
-            ideas and projects, as I&apos;m constantly seeking new opportunities
-            to collaborate and expand my network. Please take a moment to share
-            a bit about yourself, or feel free to explore my website to gain a
-            deeper understanding of my work.
+            Feel free to explore my portfolio and my work. Are you looking to
+            collaborate on a project or have an idea you&apos;d like to pitch?
+            Take a moment to share a bit about yourself, your idea, or what you
+            are working on. I&apos;m always interested in and collaboration
+            opportunities and to expand my network with other talented
+            individuals. Thanks for stopping by!
           </p>
           <ContactForm />
         </section>
