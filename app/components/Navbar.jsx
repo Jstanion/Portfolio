@@ -74,9 +74,12 @@ export default function Navbar() {
           </p>
         </Link>
       </div>
-      <div className="">
+      <div className="text-mdGray w-full">
         <div className="dropdown lg:hidden">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <label
+            tabindex="0"
+            class="btn btn-ghost hover:bg-mdGray hover:text-ltGray lg:hidden"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -94,25 +97,64 @@ export default function Navbar() {
           </label>
           <ul
             tabindex="0"
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-xl bg-mdGray rounded-box bg-opacity-50 w-fit"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            <Link
+              href="/about"
+              className="group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            >
+              <h2
+                className={`text-lg font-semibold text-dkGray group-hover:text-yellow`}
+              >
+                About Me{" "}
+                <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-yellow">
+                  -&gt;
+                </span>
+              </h2>
+            </Link>
+
+            <Link
+              href="/projects"
+              className="group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            >
+              <h2
+                className={`text-lg font-semibold text-dkGray group-hover:text-yellow`}
+              >
+                My{" "}
+                <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-yellow">
+                  -&gt;
+                </span>
+                Projects
+              </h2>
+            </Link>
+
+            <Link
+              href="/skills"
+              className="group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            >
+              <h2
+                className={`text-lg font-semibold text-dkGray group-hover:text-yellow`}
+              >
+                My{" "}
+                <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-yellow">
+                  -&gt;
+                </span>
+                Skills
+              </h2>
+            </Link>
+            <Link
+              href="/contact"
+              className="group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            >
+              <h2
+                className={`mb-3 text-lg font-semibold text-ltGray group-hover:text-yellow`}
+              >
+                Contact Me{" "}
+                <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-yellow">
+                  -&gt;
+                </span>
+              </h2>
+            </Link>
           </ul>
         </div>
       </div>
