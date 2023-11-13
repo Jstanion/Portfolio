@@ -104,7 +104,7 @@ export default function Navbar() {
               className="group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             >
               <h2
-                className={`text-lg font-semibold text-dkGray group-hover:text-yellow`}
+                className={`text-lg font-semibold text-ltGray group-hover:text-yellow`}
               >
                 About Me{" "}
                 <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-yellow">
@@ -118,7 +118,7 @@ export default function Navbar() {
               className="group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             >
               <h2
-                className={`text-lg font-semibold text-dkGray group-hover:text-yellow`}
+                className={`text-lg font-semibold text-ltGray group-hover:text-yellow`}
               >
                 My{" "}
                 <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-yellow">
@@ -133,7 +133,7 @@ export default function Navbar() {
               className="group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             >
               <h2
-                className={`text-lg font-semibold text-dkGray group-hover:text-yellow`}
+                className={`text-lg font-semibold text-ltGray group-hover:text-yellow`}
               >
                 My{" "}
                 <span className="inline-block transition-transform duration-500 group-hover:translate-x-5 motion-reduce:transform-none group-hover:text-yellow">
