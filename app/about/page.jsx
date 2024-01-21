@@ -28,7 +28,7 @@ const About = () => {
             <div
               className={`${Styles.fadeInTitle} flex flex-col justify-between items-center w-1/2`}
             >
-              <div className="flex justify-center w-full border-l bg-gradient-to-r from-blue rounded-l-full border-blue p-4">
+              <div className="flex justify-center w-full border-r bg-gradient-to-l from-blue rounded-r-full border-blue p-4">
                 <span className="text-yellow sm:text-6xl">J</span>
                 <p className="text-ltGray sm:text-4xl font-extralight">
                   oseph
