@@ -16,7 +16,7 @@ const About = () => {
       </div>
       <div className="flex justify-center items-center h-full">
         <div className="flex justify-center pt-4">
-          <div className="flex justify-between items-start w-3/4 h-full">
+          <div className="flex flex-col lg:flex-row justify-between items-start w-3/4 h-full">
           <Image
               id={Styles.profile}
               className={`${Styles.fadeInImage} bg-gradient-to-r from-blue border-l rounded-l-full border-blue h-fit`}
