@@ -17,6 +17,14 @@ const About = () => {
       <div className="flex justify-center items-center h-full">
         <div className="flex justify-center pt-4">
           <div className="flex justify-between items-start w-3/4 h-full">
+          <Image
+              id={Styles.profile}
+              className={`${Styles.fadeInImage} bg-gradient-to-r from-blue border-l rounded-l-full border-blue h-fit`}
+              width={370}
+              height={300}
+              src="/profile-3.jpg"
+              alt="Picture of the author"
+            />
             <div
               className={`${Styles.fadeInTitle} flex flex-col justify-between items-center w-1/2`}
             >
@@ -45,14 +53,7 @@ const About = () => {
                 </span>
               </p>
             </div>
-            <Image
-              id={Styles.profile}
-              className={`${Styles.fadeInImage} bg-gradient-to-l from-blue border-r rounded-r-full border-blue h-fit`}
-              width={370}
-              height={300}
-              src="/profile-3.jpg"
-              alt="Picture of the author"
-            />
+            
           </div>
         </div>
       </div>
