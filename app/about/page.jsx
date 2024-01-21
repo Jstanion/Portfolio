@@ -7,7 +7,7 @@ const About = () => {
     <div className="flex flex-col items-end w-full h-full">
       <div className="flex justify-end w-full">
         <div className={`${Styles.titleDiv} flex justify-end w-full`}>
-          <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue text-4xl text-ltGray font-extralight py-4 w-9/12 shadow-lg shadow-black">
+          <h1 className="border-l-4 rounded-l-full border-y border-yellow bg-gradient-to-r from-blue sm:text-4xl text-ltGray font-extralight py-4 w-9/12 shadow-lg shadow-black">
             <span className="pl-10 text-yellow">ABOUT</span>
             <span className="text-xs"> </span>
             <span className="font-bold">ME</span>
@@ -21,16 +21,16 @@ const About = () => {
               className={`${Styles.fadeInTitle} flex flex-col justify-between items-center w-1/2`}
             >
               <div className="flex justify-center w-full border-l bg-gradient-to-r from-blue rounded-l-full border-blue p-4">
-                <span className="text-yellow text-6xl">J</span>
-                <p className="text-ltGray text-4xl font-extralight">
+                <span className="text-yellow sm:text-6xl">J</span>
+                <p className="text-ltGray sm:text-4xl font-extralight">
                   oseph
                   <br />
-                  <span className="text-yellow text-6xl font-normal">S</span>
+                  <span className="text-yellow sm:text-6xl font-normal">S</span>
                   tanion
                 </p>
               </div>
               <p
-                className={`${Styles.fadeInIntro} text-md text-center leading-7 p-6 w-5/6`}
+                className={`${Styles.fadeInIntro} text-md text-center leading-7 p-6 lg:w-5/6`}
               >
                 <span className="text-ltGray">
                   As a full-stack web developer, I have a strong passion for
