@@ -15,45 +15,51 @@ const About = () => {
         </div>
       </div>
       <div className="flex justify-center items-center h-full">
-        <div className="flex justify-center pt-4">
-          <div className="flex flex-col lg:flex-row justify-between items-start w-3/4 h-full">
-          <Image
-              id={Styles.profile}
-              className={`${Styles.fadeInImage} bg-gradient-to-r from-blue border-l rounded-l-full border-blue h-fit`}
-              width={370}
-              height={300}
-              src="/profile-3.jpg"
-              alt="Picture of the author"
-            />
+        <div className="flex justify-center pt-4 h-full">
+          <div className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-start w-3/4 h-full">
             <div
-              className={`${Styles.fadeInTitle} flex flex-col justify-between items-center w-1/2`}
+              className={`${Styles.fadeInImage} flex justify-center lg:bg-gradient-to-r from-blue rounded-l-full border-blue`}
             >
-              <div className="flex justify-center w-full border-r bg-gradient-to-l from-blue rounded-r-full border-blue p-4">
-                <span className="text-yellow sm:text-6xl">J</span>
-                <p className="text-ltGray sm:text-4xl font-extralight">
+              <Image
+                id={Styles.profile}
+                className="lg:rounded-l-full h-fit"
+                width={370}
+                height={300}
+                src="/profile-3.jpg"
+                alt="Picture of the author"
+              />
+            </div>
+            <div
+              className={`${Styles.fadeInTitle} flex flex-col justify-between items-center h-1/3 lg:w-1/2`}
+            >
+              <div className="flex justify-center w-full lg:border-r bg-gradient-to-r lg:bg-gradient-to-l from-blue rounded-l-full lg:rounded-l-none lg:rounded-r-full border-blue lg:p-4">
+                <span className="text-yellow text-3xl md:text-6xl">J</span>
+                <p className="text-ltGray md:text-4xl font-extralight">
                   oseph
-                  <br />
-                  <span className="text-yellow sm:text-6xl font-normal">S</span>
+                  <br/>
+                  <span className="text-yellow text-3xl md:text-6xl font-normal">
+                    S
+                  </span>
                   tanion
                 </p>
               </div>
               <p
-                className={`${Styles.fadeInIntro} text-md text-center leading-7 p-6 lg:w-5/6`}
+                className={`${Styles.fadeInIntro} text-xs md:text-2xl lg:text-base text-center md:leading-loose lg:leading-7 py-2 w-full md:w-5/6`}
               >
                 <span className="text-ltGray">
                   As a full-stack web developer, I have a strong passion for
                   creating unique, modern user interfaces and optimized backend
                   databases to give you the best web experience possible.{" "}
                 </span>
+                <br />
                 <span className="text-mdGray">
                   As a former restaurant manager and team leader, I have over
-                  ten years of experience in delivering customer satisfaction,
-                  maintaining a positive attitude, and solving problems
-                  creatively.
+                  ten years of experience in providing excellent customer
+                  service, delivering high-quality products, and creative
+                  problem solving.
                 </span>
               </p>
             </div>
-            
           </div>
         </div>
       </div>

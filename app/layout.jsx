@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <div className="flex flex-col justify-between h-screen">
           <div className="lg:flex h-full">
             <Navbar />
-            <div className="flex justify-center items-center w-full lg:pt-14 overflow-hidden">
+            <div className="flex justify-center items-center w-full h-full lg:pt-14 overflow-hidden">
               {children}
             </div>
           </div>
