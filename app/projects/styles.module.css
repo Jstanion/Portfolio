@@ -6,15 +6,6 @@
   -ms-animation: slideInFromRight .5s ease-in;
 }
 
-.button {
-  padding: 4px 16px 4px 16px;
-}
-
-.button:hover {
-  background-color: rgb(92, 128, 188);
-  padding: 4px 16px 4px 16px;
-}
-
 .projectSection {
   display: grid;
   padding: 1rem 2rem;
