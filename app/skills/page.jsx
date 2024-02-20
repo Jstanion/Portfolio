@@ -49,8 +49,11 @@ const Skills = () => {
       </div>
       <div className="flex flex-col justify-evenly items-end h-5/6 w-full">
         <div className={`${Styles.titleFadeIn} flex justify-start w-full`}>
-          <p class="text-ltGray text-sm lg:text-xl p-3 lg:p-0">What I use to create...</p>
+          <p class="text-ltGray text-sm lg:text-xl p-3 lg:p-0">
+            What I use to create...
+          </p>
         </div>
+        {/* FIRST SECTION */}
         <div
           className={`${Styles.backEndFadeIn} flex flex-col lg:flex-row justify-between items-end lg:items-center w-full`}
         >
@@ -63,44 +66,50 @@ const Skills = () => {
             className={`${Styles.backEndDiv} flex flex-wrap justify-evenly items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-full w-11/12 lg:w-7/12 font-bold p-4 shadow-lg shadow-dkGray`}
           >
             <div className="flex flex-wrap justify-evenly items-center w-full">
-              <div className="flex flex-col items-center hover:text-nodeGreen transition-colors duration-500">
-                <FaNodeJs className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base px-2">Node.js</p>
+              <div className={`${Styles.skillIcon} text-nodeGreen`}>
+                <FaNodeJs />
+                <p>Node.js</p>
               </div>
-              <div className="flex flex-col items-center hover:text-jsYellow transition-colors duration-500">
-                <SiExpress className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base">Express.js</p>
+              <div className={`${Styles.skillIcon} text-jsYellow`}>
+                <SiExpress />
+                <p>Express.js</p>
               </div>
-              <div className="flex flex-col items-center hover:text-mdbGreen transition-colors duration-500">
-                <SiMongodb className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base">MongoDB</p>
+              <div className={`${Styles.skillIcon} text-mdbGreen`}>
+                <SiMongodb />
+                <p>MongoDB</p>
               </div>
-              <div
-                className={`${Styles.sqlAnchor} flex flex-col items-center transition-colors duration-500`}
-              >
-                <GrMysql className={`${Styles.sqlIcon}  text-2xl lg:text-5xl`} />
-                <p className={`${Styles.sqlText} text-xs lg:text-base`}>MySQL</p>
+              <div className={Styles.skillIcon}>
+                <GrMysql className="text-sqlBlue" />
+                <p className="text-sqlText">MySQL</p>
               </div>
-              <div className="flex flex-col items-center hover:text-mgRed transition-colors duration-500">
-                <SiMongoose className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base">Mongoose</p>
+              <div className={`${Styles.skillIcon} text-mgRed`}>
+                <SiMongoose />
+                <p>Mongoose</p>
               </div>
               <div
-                className={`${Styles.fbAnchor} flex flex-col items-center transition-colors duration-500`}
+                className={`${Styles.skillIcon} flex flex-col items-center `}
               >
-                <SiFirebase className={`${Styles.fbYellow} text-2xl lg:text-5xl`} />
-                <p className={`${Styles.fbBlue} text-xs lg:text-base`}>
-                  G<span className={Styles.fbRed}>o</span>
-                  <span className={Styles.fbYellow}>o</span>
-                  <span className={Styles.fbBlue}>g</span>
-                  <span className={Styles.fbGreen}>l</span>
-                  <span className={Styles.fbRed}>e</span>
-                  <span className={Styles.fbGray}> Firebase</span>
+                <SiFirebase className="text-fbYellow" />
+                <p className="text-fbGreen">
+                  G<span className="text-fbRed">o</span>
+                  <span className="text-fbYellow">o</span>
+                  <span className="text-fbBlue">g</span>
+                  <span>l</span>
+                  <span className="text-fbRed">e</span>
+                  <span className="text-fbYellow"> F</span>
+                  <span className="text-fbBlue">i</span>
+                  <span>r</span>
+                  <span className="text-fbRed">e</span>
+                  <span className="text-fbYellow">b</span>
+                  <span className="text-fbBlue">a</span>
+                  <span>s</span>
+                  <span className="text-fbRed">e</span>
                 </p>
               </div>
             </div>
           </div>
         </div>
+        {/* SECOND SECTION */}
         <div
           className={`${Styles.frontEndFadeIn} flex flex-col lg:flex-row justify-between items-end lg:items-center w-full`}
         >
@@ -112,40 +121,41 @@ const Skills = () => {
           <div
             className={`${Styles.frontEndDiv} flex flex-wrap justify-evenly items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-full w-11/12 lg:w-8/12 font-bold p-4 shadow-lg shadow-dkGray`}
           >
-            <div className="flex flex-col items-center hover:text-htmlOrange transition-colors duration-500">
-              <FaHtml5 className="text-2xl lg:text-5xl" />
-              <p className="text-xs lg:text-base">HTML5</p>
+            <div className={`${Styles.skillIcon} text-htmlOrange`}>
+              <FaHtml5 />
+              <p>HTML5</p>
             </div>
-            <div className="flex flex-col items-center hover:text-cssBlue transition-colors duration-500">
-              <FaCss3Alt className="text-2xl lg:text-5xl" />
-              <p className="text-xs lg:text-base">CSS3</p>
+            <div className={`${Styles.skillIcon} text-cssBlue`}>
+              <FaCss3Alt />
+              <p>CSS3</p>
             </div>
-            <div className="flex flex-col items-center hover:text-jsYellow transition-colors duration-500">
-              <DiJavascript className="text-2xl lg:text-5xl" />
-              <p className="text-xs lg:text-base">JavaScript</p>
+            <div className={`${Styles.skillIcon} text-jsYellow`}>
+              <DiJavascript />
+              <p>JavaScript</p>
             </div>
-            <div className="flex flex-col items-center hover:text-twBlue transition-colors duration-500">
-              <SiTailwindcss className="text-2xl lg:text-5xl" />
-              <p className="text-xs lg:text-base">Tailwind</p>
+            <div className={`${Styles.skillIcon} text-twBlue`}>
+              <SiTailwindcss />
+              <p>Tailwind</p>
             </div>
-            <div className="flex flex-col items-center hover:text-bsPurple transition-colors duration-500">
-              <FaBootstrap className="text-2xl lg:text-5xl" />
-              <p className="text-xs lg:text-base">Bootstrap</p>
+            <div className={`${Styles.skillIcon} text-bsPurple`}>
+              <FaBootstrap />
+              <p>Bootstrap</p>
             </div>
-            <div className="flex flex-col items-center hover:text-bulmaGreen transition-colors duration-500">
-              <SiBulma className="text-2xl lg:text-5xl" />
-              <p className="text-xs lg:text-base">Bulma</p>
+            <div className={`${Styles.skillIcon} text-bulmaGreen`}>
+              <SiBulma />
+              <p>Bulma</p>
             </div>
-            <div className="flex flex-col items-center hover:text-reactBlue transition-colors duration-500">
-              <FaReact className="text-2xl lg:text-5xl" />
-              <p className="text-xs lg:text-base">React</p>
+            <div className={`${Styles.skillIcon} text-reactBlue`}>
+              <FaReact />
+              <p>React</p>
             </div>
-            <div className="flex flex-col items-center hover:text-njsBlack transition-colors duration-500">
-              <SiNextdotjs className="text-2xl lg:text-5xl" />
-              <p className="text-xs lg:text-base">Next.js</p>
+            <div className={`${Styles.skillIcon} text-njsBlack`}>
+              <SiNextdotjs />
+              <p>Next.js</p>
             </div>
           </div>
         </div>
+        {/* THIRD SECTION */}
         <div
           className={`${Styles.otherToolsFadeIn} flex flex-col lg:flex-row justify-between items-end lg:items-center w-full`}
         >
@@ -158,77 +168,63 @@ const Skills = () => {
             className={`${Styles.otherToolsDiv} flex flex-col justify-evenly items-center bg-gradient-to-r from-blue border-l-8 border-y border-yellow rounded-l-full h-full w-11/12 lg:w-9/12 font-bold p-4 shadow-lg shadow-dkGray`}
           >
             <div className="flex flex-wrap justify-evenly items-center w-full">
-              <div className="flex flex-col items-center hover:text-npmRed transition-colors duration-500">
-                <FaNpm className="text-2xl lg:text-5xl" />
+              <div className={`${Styles.skillIcon} text-npmRed`}>
+                <FaNpm />
                 <p className="text-center text-xs lg:text-base">
                   Node Package
                   <br /> Manager
                 </p>
               </div>
-              <div className="flex flex-col items-center hover:text-gitOrange transition-colors duration-500">
-                <BsGit className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base">Git</p>
+              <div className={`${Styles.skillIcon} text-gitOrange`}>
+                <BsGit />
+                <p>Git</p>
               </div>
-              <div className="flex flex-col items-center hover:text-njsBlack transition-colors duration-500">
-                <BsGithub className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base">GitHub</p>
+              <div className={`${Styles.skillIcon} text-njsBlack`}>
+                <BsGithub />
+                <p>GitHub</p>
               </div>
-              <div className="flex flex-col items-center hover:text-herokuPurple transition-colors duration-500">
-                <SiHeroku className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base">Heroku</p>
+              <div className={`${Styles.skillIcon} text-herokuPurple`}>
+                <SiHeroku />
+                <p>Heroku</p>
               </div>
-              <div
-                className={`${Styles.wbAnchor} flex flex-col items-center transition-colors duration-500`}
-              >
-                <SiWebpack className={`${Styles.wbIcon} text-2xl lg:text-5xl`} />
-                <p className={`${Styles.wbText} text-xs lg:text-base`}>Webpack.js</p>
+              <div className={Styles.skillIcon}>
+                <SiWebpack className="text-wbBlue" />
+                <p className="text-wbText">Webpack.js</p>
               </div>
-              <div
-                className={`${Styles.rdxAnchor} flex flex-col items-center transition-colors duration-500`}
-              >
-                <SiRedux className={`${Styles.rdxIcon} text-2xl lg:text-5xl`} />
-                <p className={`${Styles.rdxText} text-xs lg:text-base`}>Redux</p>
+              <div className={Styles.skillIcon}>
+                <SiRedux className="text-rdxIcon" />
+                <p className="text-rdxText">Redux</p>
               </div>
-            {/* </div>
-            <div className="flex flex-wrap justify-evenly items-center w-full"> */}
-              <div className="flex flex-col items-center hover:text-pmOrange transition-colors duration-500">
-                <SiPostman className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base">Postman</p>
+              <div className={`${Styles.skillIcon} text-pmOrange`}>
+                <SiPostman />
+                <p>Postman</p>
               </div>
-              <div className="flex flex-col items-center hover:text-jstPurple transition-colors duration-500">
-                <SiJest className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base">Jest</p>
+              <div className={`${Styles.skillIcon} text-jstPurple`}>
+                <SiJest />
+                <p>Jest</p>
               </div>
-              <div
-                className={`${Styles.handlebarAnchor} flex flex-col items-center transition-colors duration-500`}
-              >
-                <SiHandlebarsdotjs
-                  className={`${Styles.handlebarIcon} text-2xl lg:text-5xl`}
-                />
-                <p className={`${Styles.handlebarText} text-xs lg:text-base`}>Handlebar.js</p>
+              <div className={`${Styles.skillIcon} text-njsBlack`}>
+                <SiApollographql />
+                <p>Apollo</p>
               </div>
-              <div className="flex flex-col items-center hover:text-graphQL transition-colors duration-500">
-                <SiGraphql className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base">GraphQL</p>
+              <div className={Styles.skillIcon}>
+                <SiHandlebarsdotjs className="text-hdbIcon" />
+                <p className="text-hdbText">Handlebar.js</p>
               </div>
-              <div
-                className={`${Styles.sequelizeAnchor} flex flex-col items-center transition-colors duration-500`}
-              >
-                <SiSequelize
-                  className={`${Styles.sequelizeIcon} text-2xl lg:text-5xl`}
-                />
-                <p className={`${Styles.sequelizeText} text-xs lg:text-base`}>Sequelize.js</p>
+              <div className={`${Styles.skillIcon} text-graphQL`}>
+                <SiGraphql />
+                <p>GraphQL</p>
               </div>
-              <div className="flex flex-col items-center hover:text-seoBlue transition-colors duration-500">
-                <TbSeo className="text-2xl lg:text-5xl" />
-                <p className="text-center text-xs lg:text-base">
+              <div className={Styles.skillIcon}>
+                <SiSequelize className="text-seqIcon" />
+                <p className="text-seqText">Sequelize.js</p>
+              </div>
+              <div className={`${Styles.skillIcon} text-seoBlue`}>
+                <TbSeo />
+                <p>
                   Search Engine <br />
                   Optimization
                 </p>
-              </div>
-              <div className="flex flex-col items-center hover:text-njsBlack transition-colors duration-500">
-                <SiApollographql className="text-2xl lg:text-5xl" />
-                <p className="text-xs lg:text-base">Apollo</p>
               </div>
             </div>
           </div>
