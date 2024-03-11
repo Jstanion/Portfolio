@@ -25,7 +25,7 @@ const About = () => {
                 className="lg:rounded-l-full h-fit"
                 width={370}
                 height={300}
-                src="/profile-3.jpg"
+                src="/profile.png"
                 alt="Picture of the author"
               />
             </div>
